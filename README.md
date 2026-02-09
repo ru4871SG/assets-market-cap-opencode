@@ -23,8 +23,8 @@ You need two separate services in one Railway project, both connected to the sam
      gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
      ```
 3. Go to **Variables** and add your environment variables:
-   - `FRED_API_KEY` = your key
-   - `TWELVEDATA_API_KEY` = your key (they have free plan at the time I write this readme guide)
+   - `FRED_API_KEY` = your fredaccount API key (get one from `https://fredaccount.stlouisfed.org/apikeys`)
+   - `TWELVEDATA_API_KEY` = your TwelveData API key (they have free plan at the time I write this readme guide, get one from `https://twelvedata.com/pricing`)
    - `FLASK_DEBUG` = `false`
 4. Go to **Networking** and click **"Generate Domain"** (or add a custom domain). Note this URL, you'll need it for the frontend. It will look like `https://your-backend-service.up.railway.app`.
 
