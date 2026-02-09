@@ -33,3 +33,6 @@ backend/logs/
 .env
 .opencode/.env
 .opencode/opencode.json
+
+# Plugin
+custom_chat_history_opencode_plugin.md

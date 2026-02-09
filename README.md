@@ -2,9 +2,12 @@
 
 This repository contains both frontend and backend files of a web app showcasing assets market cap rankings, combining data from commodities, stocks, and cryptocurrencies. Inside each asset page, you can see typical financial data you can find from similar patforms, such as current price, OHLC candles, trading volume, and other metrics. 
 
-Disclaimer: This web app is a personal project, 90% made by OpenCode (opencode.ai) using Claude Opus as the primary model. The remaining 10% were just bug fixes and small refactoring steps.
+This web app is a personal project, 90% made by OpenCode (opencode.ai) using Claude Opus as the primary model. The remaining 10% were just bug fixes and small refactoring steps.
 
-I deployed both the frontend and backend using Railway.
+I deployed both the frontend and backend using Railway. You can check the web app directly here: 
+[https://assets-market-cap-opencode-production-e827.up.railway.app/](https://assets-market-cap-opencode-production-e827.up.railway.app/)
+
+Important Note: Keep in mind that I'm using free server and free data sources, so it might be a bit slow sometimes
 
 ## Railway Deployment Guide
 
@@ -41,6 +44,9 @@ After both services deploy:
 - Frontend at `https://your-frontend.up.railway.app` serves the React app
 - Frontend JS calls `https://your-backend.up.railway.app/api/*` (CORS is already enabled)
 - Backend runs Flask via gunicorn with proper `$PORT` binding
+
+#### Web App Preview:
+![Preview](preview.gif)
 
 ### Run Locally
 The app is designed to work in both local development and Railway production environments. You can still run it locally if you don't want to deploy it on Railway (or similar services).
