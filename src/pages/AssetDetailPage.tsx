@@ -797,7 +797,7 @@ export function AssetDetailPage() {
             )}
 
             {/* Shanghai & India Premium Prices - only shows for gold and silver */}
-            {/* COMMENTED OUT - To re-enable, uncomment lines below */}
+            {/* COMMENTED OUT - To re-enable, uncomment lines below - and don't forget to uncomment the import statements at the top (hasPremiumData and PremiumPrices) */}
             {/* {assetType === 'metal' && details?.symbol && hasPremiumData(details.symbol) && (
               <PremiumPrices 
                 symbol={details.symbol} 
