@@ -1,0 +1,250 @@
+{
+  "header": {
+    "title": "Capitalización de Mercado de Activos",
+    "tagline": "Compara todos los activos en un solo lugar",
+    "themeDark": "Cambiar a modo claro",
+    "themeLight": "Cambiar a modo oscuro"
+  },
+  "filter": {
+    "allAssets": "Todos los Activos",
+    "crypto": "Cripto",
+    "stocks": "Acciones",
+    "metals": "Metales",
+    "searchPlaceholder": "Buscar y Enter...",
+    "clearSearch": "Limpiar búsqueda",
+    "searching": "Buscando en API...",
+    "assetCount": "Mostrando actualmente {{count}} activos",
+    "showNext30": "Mostrar Siguientes 30",
+    "loadMore": "Cargar 30 acciones más",
+    "refresh": "Actualizar datos",
+    "rateLimited": "Límite de tasa alcanzado - reintento automático en progreso",
+    "configureColumns": "Configurar columnas"
+  },
+  "table": {
+    "rank": "#",
+    "name": "Nombre",
+    "type": "Tipo",
+    "price": "Precio",
+    "change24h": "24h %",
+    "change7d": "7d %",
+    "change30d": "30d %",
+    "change60d": "60d %",
+    "change90d": "90d %",
+    "change180d": "180d %",
+    "changeYtd": "YTD %",
+    "marketCap": "Capitalización de Mercado"
+  },
+  "assetTypes": {
+    "crypto": "Cripto",
+    "stock": "Acción",
+    "metal": "Metal",
+    "etf": "ETF"
+  },
+  "loading": {
+    "assets": "Cargando activos...",
+    "searching": "Buscando activos coincidentes en la API..."
+  },
+  "errors": {
+    "tryAgain": "Intentar de Nuevo",
+    "noResults": "No se encontraron resultados para \"{{query}}\"",
+    "noResultsHint": "Presiona Enter para buscar más activos en la API"
+  },
+  "footer": {
+    "clickRow": "Haz clic en cualquier fila para ver información detallada e historial de precios",
+    "autoRefreshEnabled": "Auto-actualización: ACTIVADA (cada 5 min)",
+    "autoRefreshDisabled": "Auto-actualización: DESACTIVADA",
+    "lastUpdate": "Última actualización: {{time}}",
+    "enableAutoRefresh": "Activar auto-actualización",
+    "disableAutoRefresh": "Desactivar auto-actualización",
+    "refreshingIn": "Actualizando en {{countdown}}",
+    "refreshingNow": "Actualizando datos..."
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "pt": "Portugués"
+  },
+  "assetNames": {
+    "Gold": "Oro",
+    "Silver": "Plata",
+    "Platinum": "Platino",
+    "Palladium": "Paladio",
+    "Copper": "Cobre"
+  },
+  "detailPage": {
+    "back": "Atrás",
+    "refreshPrice": "Actualizar precio",
+    "rateLimitedRetry": "Límite de tasa excedido (lo siento, uso el plan gratuito). Espere 1 minuto y debería volver a intentarlo automáticamente. Si ha pasado más de 1 minuto, haga clic en el botón de actualización en la esquina superior derecha para actualizar manualmente.",
+    "priceHistory": "Historial de Precios",
+    "details": "Detalles",
+    "invalidUrl": "URL de activo inválida",
+    "goBack": "Volver",
+    "dataSource": "Fuente de datos: Yahoo Finance & Twelve Data",
+    "retryingIn": "Límite de tasa excedido (lo siento, uso el plan gratuito). Espere 1 minuto y debería volver a intentarlo automáticamente. Si ha pasado más de 1 minuto, haga clic en el botón de actualización en la esquina superior derecha para actualizar manualmente."
+  },
+  "assetDetails": {
+    "loadingDetails": "Cargando detalles...",
+    "failedToFetch": "Error al obtener datos de la API.",
+    "retryingIn": "Reintentando en {{seconds}}...",
+    "marketStatistics": "Estadísticas del Mercado",
+    "marketCap": "Capitalización de Mercado",
+    "change24h": "Cambio 24h",
+    "changeValue": "Cambio 24h ($)",
+    "priceChange": "Cambio de Precio",
+    "volume": "Volumen",
+    "avgVolume": "Volumen Promedio",
+    "sharesOut": "Acciones en Circulación",
+    "supply": "Suministro",
+    "circulating": "Circulante",
+    "totalSupply": "Suministro Total",
+    "maxSupply": "Suministro Máximo",
+    "unlimited": "Ilimitado",
+    "links": "Enlaces",
+    "officialWebsite": "Sitio Web Oficial",
+    "todaysTrading": "Negociación de Hoy",
+    "open": "Apertura",
+    "dayHigh": "Máximo del Día",
+    "dayLow": "Mínimo del Día",
+    "prevClose": "Cierre Anterior",
+    "fiftyTwoWeekRange": "Rango de 52 Semanas",
+    "fiftyTwoWeekHigh": "Máximo 52S",
+    "fiftyTwoWeekLow": "Mínimo 52S",
+    "fiftyDayAvg": "Promedio 50D",
+    "twoHundredDayAvg": "Promedio 200D",
+    "valuation": "Valoración",
+    "peRatioTTM": "P/E (TTM)",
+    "peRatioFWD": "P/E (FWD)",
+    "divYield": "Rendimiento Div",
+    "beta": "Beta",
+    "companyInfo": "Información de la Empresa",
+    "sector": "Sector",
+    "industry": "Industria",
+    "employees": "Empleados",
+    "headquarters": "Sede",
+    "companyWebsite": "Sitio Web de la Empresa",
+    "futures": "Futuros",
+    "aboveGround": "Sobre Tierra"
+  },
+  "marketStatus": {
+    "marketHours": "Horario del Mercado",
+    "open": "ABIERTO",
+    "closed": "CERRADO",
+    "yourLocalTime": "Tu Hora Local",
+    "exchangeTime": "Hora de la Bolsa",
+    "marketOpen": "Apertura del Mercado",
+    "marketClose": "Cierre del Mercado",
+    "local": "local",
+    "exchange": "bolsa",
+    "untilMarketOpens": "hasta que abra el mercado",
+    "untilMarketCloses": "hasta que cierre el mercado"
+  },
+  "eventSelector": {
+    "chartEvents": "Eventos del Gráfico",
+    "selectAll": "Seleccionar Todo",
+    "clearAll": "Limpiar Todo",
+    "governmentShutdown": "Cierres del Gobierno de EE.UU.",
+    "recession": "Recesiones",
+    "fedDecisions": "Decisiones de la Fed",
+    "fomc": "Reuniones FOMC",
+    "rateHike": "Subida de Tasas",
+    "rateCut": "Recorte de Tasas",
+    "rateHold": "Mantenimiento de Tasas"
+  },
+  "eventTitles": {
+    "fedRateHike": "Subida de Tasas de la Fed",
+    "fedRateCut": "Recorte de Tasas de la Fed",
+    "fedRateHold": "Mantenimiento de Tasas de la Fed",
+    "governmentShutdown": "Cierre del Gobierno",
+    "recession": "Recesión"
+  },
+  "timezone": {
+    "label": "ZH:",
+    "local": "Local",
+    "exchange": "Bolsa",
+    "exchangeTime": "Hora de la Bolsa",
+    "americas": "Américas",
+    "europe": "Europa",
+    "asiaPacific": "Asia/Pacífico"
+  },
+  "priceChart": {
+    "loadingChart": "Cargando datos del gráfico...",
+    "failedToFetch": "Error al obtener datos de la API.",
+    "retryingIn": "Reintentando en {{seconds}}...",
+    "noData": "No hay datos disponibles",
+    "high": "A",
+    "low": "B",
+    "open": "Ap",
+    "close": "C",
+    "addInventoryOverlay": "Agregar Inventario COMEX al gráfico",
+    "inventoryTotal": "Inventario COMEX",
+    "inventoryLabel": "Inventario COMEX (oz)",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
+    "resetZoom": "Restablecer zoom",
+    "zoomHint": "Ctrl + scroll para zoom"
+  },
+  "chartType": {
+    "line": "Línea",
+    "ohlc": "OHLC",
+    "candlestick": "Velas",
+    "lineTooltip": "Mostrar precio como gráfico de línea",
+    "ohlcTooltip": "Mostrar precio como barras OHLC (Apertura, Alto, Bajo, Cierre)",
+    "candlestickTooltip": "Mostrar precio como velas japonesas"
+  },
+  "indicators": {
+    "title": "Indicadores",
+    "movingAverage1": "Media Móvil 1",
+    "movingAverage2": "Media Móvil 2",
+    "bollingerBands": "Bandas de Bollinger",
+    "type": "Tipo",
+    "period": "Período",
+    "stdDev": "Desv Est",
+    "reset": "Restablecer Todo"
+  },
+  "inventory": {
+    "title": "Inventario COMEX de {{metal}}",
+    "total": "Inventario Total",
+    "loading": "Cargando datos de inventario...",
+    "error": "Error al cargar datos de inventario",
+    "noData": "No hay datos de inventario disponibles",
+    "source": "Fuente",
+    "lastUpdated": "Última Actualización"
+  },
+  "columnsConfig": {
+    "title": "Configurar Columnas",
+    "description": "Selecciona qué columnas de cambio porcentual mostrar en la tabla.",
+    "done": "Hecho",
+    "columns": {
+      "change7d": "Cambio de 7 Días",
+      "change30d": "Cambio de 30 Días",
+      "change60d": "Cambio de 60 Días",
+      "change90d": "Cambio de 90 Días",
+      "changeYtd": "Año Hasta la Fecha (YTD)",
+      "change180d": "Cambio de 180 Días"
+    }
+  },
+  "premium": {
+    "title": "Primas Regionales",
+    "description": "Diferencias de precios entre bolsas locales y precios spot/futuros occidentales.",
+    "loading": "Cargando...",
+    "unavailable": "Datos no disponibles",
+    "westernPrice": "COMEX",
+    "premiumDiscount": "Prima/Descuento",
+    "spot": "Spot",
+    "futures": "Futuros",
+    "sources": "Fuentes: SGE, SHFE, MCX, COMEX",
+    "lastUpdated": "Actualizado",
+    "shanghai": {
+      "title": "Prima de Shanghái",
+      "spot": "Spot SGE",
+      "futures": "Futuros SHFE",
+      "exchangeRate": "USD/CNY"
+    },
+    "india": {
+      "title": "Prima de India",
+      "spot": "Spot India",
+      "futures": "Futuros MCX",
+      "exchangeRate": "USD/INR"
+    }
+  }
+}

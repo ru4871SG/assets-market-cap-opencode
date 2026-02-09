@@ -1,0 +1,285 @@
+.premium-prices-container {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 24px;
+  border: 1px solid var(--border-color);
+}
+
+.premium-prices-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.premium-prices-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.premium-metal-name {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: var(--hover-bg);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.premium-description {
+  margin: 0 0 16px 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.premium-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Individual Premium Card */
+.premium-card {
+  background: var(--hover-bg);
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid var(--border-color);
+}
+
+.premium-card-title {
+  margin: 0 0 12px 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.premium-card-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.loading-spinner-small {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--primary-color, #4a90d9);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.premium-card-error,
+.premium-card-unavailable {
+  opacity: 0.7;
+}
+
+.premium-error-message,
+.premium-unavailable-message {
+  margin: 0;
+  padding: 16px 0;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.premium-error-message {
+  color: #ff5252;
+}
+
+/* Price Grid */
+.premium-prices-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.premium-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.premium-price-row.premium-western {
+  padding-top: 8px;
+  border-top: 1px dashed var(--border-color);
+  margin-top: 4px;
+}
+
+.premium-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.premium-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  font-family: 'SF Mono', 'Roboto Mono', monospace;
+}
+
+/* Premium Difference Section */
+.premium-difference-section {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.premium-difference-header {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.premium-diff-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.premium-diff-row:last-child {
+  margin-bottom: 0;
+}
+
+.premium-diff-row.positive {
+  background: rgba(0, 200, 83, 0.1);
+}
+
+.premium-diff-row.negative {
+  background: rgba(255, 82, 82, 0.1);
+}
+
+.premium-diff-row.neutral {
+  background: var(--hover-bg);
+}
+
+.premium-diff-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.premium-diff-values {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.premium-diff-absolute {
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: 'SF Mono', 'Roboto Mono', monospace;
+}
+
+.premium-diff-percent {
+  font-size: 0.8rem;
+  font-family: 'SF Mono', 'Roboto Mono', monospace;
+}
+
+.premium-diff-row.positive .premium-diff-absolute,
+.premium-diff-row.positive .premium-diff-percent {
+  color: #00c853;
+}
+
+.premium-diff-row.negative .premium-diff-absolute,
+.premium-diff-row.negative .premium-diff-percent {
+  color: #ff5252;
+}
+
+.premium-diff-row.neutral .premium-diff-absolute,
+.premium-diff-row.neutral .premium-diff-percent {
+  color: var(--text-secondary);
+}
+
+/* Exchange Rate */
+.premium-exchange-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color);
+}
+
+.premium-rate-value {
+  font-family: 'SF Mono', 'Roboto Mono', monospace;
+}
+
+/* Note for proxy data */
+.premium-note {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 8px;
+  padding: 8px;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 4px;
+  border-left: 3px solid #ffc107;
+}
+
+/* Footer */
+.premium-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.premium-source,
+.premium-timestamp {
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .premium-prices-container {
+    padding: 16px;
+  }
+
+  .premium-prices-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .premium-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-card {
+    padding: 14px;
+  }
+
+  .premium-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,2512 @@
+[
+  {
+    "ticker": "MMM",
+    "name": "3M",
+    "image": "https://logo.clearbit.com/3m.com"
+  },
+  {
+    "ticker": "AOS",
+    "name": "A. O. Smith",
+    "image": "https://logo.clearbit.com/aosmith.com"
+  },
+  {
+    "ticker": "ABT",
+    "name": "Abbott Laboratories",
+    "image": "https://logo.clearbit.com/abbott.com"
+  },
+  {
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "image": "https://logo.clearbit.com/abbvie.com"
+  },
+  {
+    "ticker": "ACN",
+    "name": "Accenture",
+    "image": "https://logo.clearbit.com/accenture.com"
+  },
+  {
+    "ticker": "ADBE",
+    "name": "Adobe Inc.",
+    "image": "https://logo.clearbit.com/adobe.com"
+  },
+  {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "image": "https://logo.clearbit.com/amd.com"
+  },
+  {
+    "ticker": "AES",
+    "name": "AES Corporation",
+    "image": "https://logo.clearbit.com/aes.com"
+  },
+  {
+    "ticker": "AFL",
+    "name": "Aflac",
+    "image": "https://logo.clearbit.com/aflac.com"
+  },
+  {
+    "ticker": "A",
+    "name": "Agilent Technologies",
+    "image": "https://logo.clearbit.com/agilent.com"
+  },
+  {
+    "ticker": "APD",
+    "name": "Air Products",
+    "image": "https://logo.clearbit.com/airproducts.com"
+  },
+  {
+    "ticker": "ABNB",
+    "name": "Airbnb",
+    "image": "https://logo.clearbit.com/airbnb.com"
+  },
+  {
+    "ticker": "AKAM",
+    "name": "Akamai Technologies",
+    "image": "https://logo.clearbit.com/akamai.com"
+  },
+  {
+    "ticker": "ALB",
+    "name": "Albemarle Corporation",
+    "image": "https://logo.clearbit.com/albemarle.com"
+  },
+  {
+    "ticker": "ARE",
+    "name": "Alexandria Real Estate Equities",
+    "image": "https://logo.clearbit.com/are.com"
+  },
+  {
+    "ticker": "ALGN",
+    "name": "Align Technology",
+    "image": "https://logo.clearbit.com/aligntech.com"
+  },
+  {
+    "ticker": "ALLE",
+    "name": "Allegion",
+    "image": "https://logo.clearbit.com/allegion.com"
+  },
+  {
+    "ticker": "LNT",
+    "name": "Alliant Energy",
+    "image": "https://logo.clearbit.com/alliantenergy.com"
+  },
+  {
+    "ticker": "ALL",
+    "name": "Allstate",
+    "image": "https://logo.clearbit.com/allstate.com"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
+    "image": "https://logo.clearbit.com/google.com"
+  },
+  {
+    "ticker": "MO",
+    "name": "Altria",
+    "image": "https://logo.clearbit.com/altria.com"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "image": "https://logo.clearbit.com/amazon.com"
+  },
+  {
+    "ticker": "AMCR",
+    "name": "Amcor",
+    "image": "https://logo.clearbit.com/amcor.com"
+  },
+  {
+    "ticker": "AEE",
+    "name": "Ameren",
+    "image": "https://logo.clearbit.com/ameren.com"
+  },
+  {
+    "ticker": "AEP",
+    "name": "American Electric Power",
+    "image": "https://logo.clearbit.com/aep.com"
+  },
+  {
+    "ticker": "AXP",
+    "name": "American Express",
+    "image": "https://logo.clearbit.com/americanexpress.com"
+  },
+  {
+    "ticker": "AIG",
+    "name": "American International Group",
+    "image": "https://logo.clearbit.com/aig.com"
+  },
+  {
+    "ticker": "AMT",
+    "name": "American Tower",
+    "image": "https://logo.clearbit.com/americantower.com"
+  },
+  {
+    "ticker": "AWK",
+    "name": "American Water Works",
+    "image": "https://logo.clearbit.com/amwater.com"
+  },
+  {
+    "ticker": "AMP",
+    "name": "Ameriprise Financial",
+    "image": "https://logo.clearbit.com/ameriprise.com"
+  },
+  {
+    "ticker": "AME",
+    "name": "Ametek",
+    "image": "https://logo.clearbit.com/ametek.com"
+  },
+  {
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "image": "https://logo.clearbit.com/amgen.com"
+  },
+  {
+    "ticker": "APH",
+    "name": "Amphenol",
+    "image": "https://logo.clearbit.com/amphenol.com"
+  },
+  {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "image": "https://logo.clearbit.com/analog.com"
+  },
+  {
+    "ticker": "AON",
+    "name": "Aon plc",
+    "image": "https://logo.clearbit.com/aon.com"
+  },
+  {
+    "ticker": "APA",
+    "name": "APA Corporation",
+    "image": "https://logo.clearbit.com/apacorp.com"
+  },
+  {
+    "ticker": "APO",
+    "name": "Apollo Global Management",
+    "image": "https://logo.clearbit.com/apollo.com"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "image": "https://logo.clearbit.com/apple.com"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "image": "https://logo.clearbit.com/appliedmaterials.com"
+  },
+  {
+    "ticker": "APTV",
+    "name": "Aptiv",
+    "image": "https://logo.clearbit.com/aptiv.com"
+  },
+  {
+    "ticker": "ACGL",
+    "name": "Arch Capital Group",
+    "image": "https://logo.clearbit.com/archgroup.com"
+  },
+  {
+    "ticker": "ADM",
+    "name": "Archer Daniels Midland",
+    "image": "https://logo.clearbit.com/adm.com"
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "image": "https://logo.clearbit.com/arista.com"
+  },
+  {
+    "ticker": "AJG",
+    "name": "Arthur J. Gallagher & Co.",
+    "image": "https://logo.clearbit.com/ajg.com"
+  },
+  {
+    "ticker": "AIZ",
+    "name": "Assurant",
+    "image": "https://logo.clearbit.com/assurant.com"
+  },
+  {
+    "ticker": "T",
+    "name": "AT&T",
+    "image": "https://logo.clearbit.com/att.com"
+  },
+  {
+    "ticker": "ATO",
+    "name": "Atmos Energy",
+    "image": "https://logo.clearbit.com/atmosenergy.com"
+  },
+  {
+    "ticker": "ADSK",
+    "name": "Autodesk",
+    "image": "https://logo.clearbit.com/autodesk.com"
+  },
+  {
+    "ticker": "ADP",
+    "name": "Automatic Data Processing",
+    "image": "https://logo.clearbit.com/adp.com"
+  },
+  {
+    "ticker": "AZO",
+    "name": "AutoZone",
+    "image": "https://logo.clearbit.com/autozone.com"
+  },
+  {
+    "ticker": "AVB",
+    "name": "AvalonBay Communities",
+    "image": "https://logo.clearbit.com/avaloncommunities.com"
+  },
+  {
+    "ticker": "AVY",
+    "name": "Avery Dennison",
+    "image": "https://logo.clearbit.com/averydennison.com"
+  },
+  {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "image": "https://logo.clearbit.com/axon.com"
+  },
+  {
+    "ticker": "BKR",
+    "name": "Baker Hughes",
+    "image": "https://logo.clearbit.com/bakerhughes.com"
+  },
+  {
+    "ticker": "BALL",
+    "name": "Ball Corporation",
+    "image": "https://logo.clearbit.com/ball.com"
+  },
+  {
+    "ticker": "BAC",
+    "name": "Bank of America",
+    "image": "https://logo.clearbit.com/bankofamerica.com"
+  },
+  {
+    "ticker": "BAX",
+    "name": "Baxter International",
+    "image": "https://logo.clearbit.com/baxter.com"
+  },
+  {
+    "ticker": "BDX",
+    "name": "Becton Dickinson",
+    "image": "https://logo.clearbit.com/bd.com"
+  },
+  {
+    "ticker": "BRK-B",
+    "name": "Berkshire Hathaway",
+    "image": "https://logo.clearbit.com/berkshirehathaway.com"
+  },
+  {
+    "ticker": "BBY",
+    "name": "Best Buy",
+    "image": "https://logo.clearbit.com/bestbuy.com"
+  },
+  {
+    "ticker": "TECH",
+    "name": "Bio-Techne",
+    "image": "https://logo.clearbit.com/bio-techne.com"
+  },
+  {
+    "ticker": "BIIB",
+    "name": "Biogen",
+    "image": "https://logo.clearbit.com/biogen.com"
+  },
+  {
+    "ticker": "BLK",
+    "name": "BlackRock",
+    "image": "https://logo.clearbit.com/blackrock.com"
+  },
+  {
+    "ticker": "BX",
+    "name": "Blackstone Inc.",
+    "image": "https://logo.clearbit.com/blackstone.com"
+  },
+  {
+    "ticker": "XYZ",
+    "name": "Block, Inc.",
+    "image": "https://logo.clearbit.com/block.xyz"
+  },
+  {
+    "ticker": "BK",
+    "name": "BNY Mellon",
+    "image": "https://logo.clearbit.com/bnymellon.com"
+  },
+  {
+    "ticker": "BA",
+    "name": "Boeing",
+    "image": "https://logo.clearbit.com/boeing.com"
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings",
+    "image": "https://logo.clearbit.com/booking.com"
+  },
+  {
+    "ticker": "BSX",
+    "name": "Boston Scientific",
+    "image": "https://logo.clearbit.com/bostonscientific.com"
+  },
+  {
+    "ticker": "BMY",
+    "name": "Bristol Myers Squibb",
+    "image": "https://logo.clearbit.com/bms.com"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "image": "https://logo.clearbit.com/broadcom.com"
+  },
+  {
+    "ticker": "BR",
+    "name": "Broadridge Financial Solutions",
+    "image": "https://logo.clearbit.com/broadridge.com"
+  },
+  {
+    "ticker": "BRO",
+    "name": "Brown & Brown",
+    "image": "https://logo.clearbit.com/bbinsurance.com"
+  },
+  {
+    "ticker": "BF-B",
+    "name": "Brown\u2013Forman",
+    "image": "https://logo.clearbit.com/brown-forman.com"
+  },
+  {
+    "ticker": "BLDR",
+    "name": "Builders FirstSource",
+    "image": "https://logo.clearbit.com/bldr.com"
+  },
+  {
+    "ticker": "BG",
+    "name": "Bunge Global",
+    "image": "https://logo.clearbit.com/bunge.com"
+  },
+  {
+    "ticker": "BXP",
+    "name": "BXP, Inc.",
+    "image": "https://logo.clearbit.com/bxp.com"
+  },
+  {
+    "ticker": "CHRW",
+    "name": "C.H. Robinson",
+    "image": "https://logo.clearbit.com/chrobinson.com"
+  },
+  {
+    "ticker": "CDNS",
+    "name": "Cadence Design Systems",
+    "image": "https://logo.clearbit.com/cadence.com"
+  },
+  {
+    "ticker": "CZR",
+    "name": "Caesars Entertainment",
+    "image": "https://logo.clearbit.com/caesars.com"
+  },
+  {
+    "ticker": "CPT",
+    "name": "Camden Property Trust",
+    "image": "https://logo.clearbit.com/camdenliving.com"
+  },
+  {
+    "ticker": "CPB",
+    "name": "Campbell's Company (The)",
+    "image": "https://logo.clearbit.com/campbells.com"
+  },
+  {
+    "ticker": "COF",
+    "name": "Capital One",
+    "image": "https://logo.clearbit.com/capitalone.com"
+  },
+  {
+    "ticker": "CAH",
+    "name": "Cardinal Health",
+    "image": "https://logo.clearbit.com/cardinalhealth.com"
+  },
+  {
+    "ticker": "KMX",
+    "name": "CarMax",
+    "image": "https://logo.clearbit.com/carmax.com"
+  },
+  {
+    "ticker": "CCL",
+    "name": "Carnival",
+    "image": "https://logo.clearbit.com/carnival.com"
+  },
+  {
+    "ticker": "CARR",
+    "name": "Carrier Global",
+    "image": "https://logo.clearbit.com/carrier.com"
+  },
+  {
+    "ticker": "CAT",
+    "name": "Caterpillar Inc.",
+    "image": "https://logo.clearbit.com/caterpillar.com"
+  },
+  {
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets",
+    "image": "https://logo.clearbit.com/cboe.com"
+  },
+  {
+    "ticker": "CBRE",
+    "name": "CBRE Group",
+    "image": "https://logo.clearbit.com/cbre.com"
+  },
+  {
+    "ticker": "CDW",
+    "name": "CDW Corporation",
+    "image": "https://logo.clearbit.com/cdw.com"
+  },
+  {
+    "ticker": "COR",
+    "name": "Cencora",
+    "image": "https://logo.clearbit.com/cencora.com"
+  },
+  {
+    "ticker": "CNC",
+    "name": "Centene Corporation",
+    "image": "https://logo.clearbit.com/centene.com"
+  },
+  {
+    "ticker": "CNP",
+    "name": "CenterPoint Energy",
+    "image": "https://logo.clearbit.com/centerpointenergy.com"
+  },
+  {
+    "ticker": "CF",
+    "name": "CF Industries",
+    "image": "https://logo.clearbit.com/cfindustries.com"
+  },
+  {
+    "ticker": "CRL",
+    "name": "Charles River Laboratories",
+    "image": "https://logo.clearbit.com/criver.com"
+  },
+  {
+    "ticker": "SCHW",
+    "name": "Charles Schwab Corporation",
+    "image": "https://logo.clearbit.com/schwab.com"
+  },
+  {
+    "ticker": "CHTR",
+    "name": "Charter Communications",
+    "image": "https://logo.clearbit.com/spectrum.com"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron Corporation",
+    "image": "https://logo.clearbit.com/chevron.com"
+  },
+  {
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill",
+    "image": "https://logo.clearbit.com/chipotle.com"
+  },
+  {
+    "ticker": "CB",
+    "name": "Chubb Limited",
+    "image": "https://logo.clearbit.com/chubb.com"
+  },
+  {
+    "ticker": "CHD",
+    "name": "Church & Dwight",
+    "image": "https://logo.clearbit.com/churchdwight.com"
+  },
+  {
+    "ticker": "CI",
+    "name": "Cigna",
+    "image": "https://logo.clearbit.com/cigna.com"
+  },
+  {
+    "ticker": "CINF",
+    "name": "Cincinnati Financial",
+    "image": "https://logo.clearbit.com/cinfin.com"
+  },
+  {
+    "ticker": "CTAS",
+    "name": "Cintas",
+    "image": "https://logo.clearbit.com/cintas.com"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "image": "https://logo.clearbit.com/cisco.com"
+  },
+  {
+    "ticker": "C",
+    "name": "Citigroup",
+    "image": "https://logo.clearbit.com/citigroup.com"
+  },
+  {
+    "ticker": "CFG",
+    "name": "Citizens Financial Group",
+    "image": "https://logo.clearbit.com/citizensbank.com"
+  },
+  {
+    "ticker": "CLX",
+    "name": "Clorox",
+    "image": "https://logo.clearbit.com/thecloroxcompany.com"
+  },
+  {
+    "ticker": "CME",
+    "name": "CME Group",
+    "image": "https://logo.clearbit.com/cmegroup.com"
+  },
+  {
+    "ticker": "CMS",
+    "name": "CMS Energy",
+    "image": "https://logo.clearbit.com/cmsenergy.com"
+  },
+  {
+    "ticker": "KO",
+    "name": "Coca-Cola Company (The)",
+    "image": "https://logo.clearbit.com/coca-cola.com"
+  },
+  {
+    "ticker": "CTSH",
+    "name": "Cognizant",
+    "image": "https://logo.clearbit.com/cognizant.com"
+  },
+  {
+    "ticker": "COIN",
+    "name": "Coinbase",
+    "image": "https://logo.clearbit.com/coinbase.com"
+  },
+  {
+    "ticker": "CL",
+    "name": "Colgate-Palmolive",
+    "image": "https://logo.clearbit.com/colgatepalmolive.com"
+  },
+  {
+    "ticker": "CMCSA",
+    "name": "Comcast",
+    "image": "https://logo.clearbit.com/comcast.com"
+  },
+  {
+    "ticker": "CAG",
+    "name": "Conagra Brands",
+    "image": "https://logo.clearbit.com/conagrabrands.com"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "image": "https://logo.clearbit.com/conocophillips.com"
+  },
+  {
+    "ticker": "ED",
+    "name": "Consolidated Edison",
+    "image": "https://logo.clearbit.com/conedison.com"
+  },
+  {
+    "ticker": "STZ",
+    "name": "Constellation Brands",
+    "image": "https://logo.clearbit.com/cbrands.com"
+  },
+  {
+    "ticker": "CEG",
+    "name": "Constellation Energy",
+    "image": "https://logo.clearbit.com/constellationenergy.com"
+  },
+  {
+    "ticker": "COO",
+    "name": "Cooper Companies (The)",
+    "image": "https://logo.clearbit.com/coopercos.com"
+  },
+  {
+    "ticker": "CPRT",
+    "name": "Copart",
+    "image": "https://logo.clearbit.com/copart.com"
+  },
+  {
+    "ticker": "GLW",
+    "name": "Corning Inc.",
+    "image": "https://logo.clearbit.com/corning.com"
+  },
+  {
+    "ticker": "CPAY",
+    "name": "Corpay",
+    "image": "https://logo.clearbit.com/corpay.com"
+  },
+  {
+    "ticker": "CTVA",
+    "name": "Corteva",
+    "image": "https://logo.clearbit.com/corteva.com"
+  },
+  {
+    "ticker": "CSGP",
+    "name": "CoStar Group",
+    "image": "https://logo.clearbit.com/costar.com"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco",
+    "image": "https://logo.clearbit.com/costco.com"
+  },
+  {
+    "ticker": "CTRA",
+    "name": "Coterra",
+    "image": "https://logo.clearbit.com/coterra.com"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "image": "https://logo.clearbit.com/crowdstrike.com"
+  },
+  {
+    "ticker": "CCI",
+    "name": "Crown Castle",
+    "image": "https://logo.clearbit.com/crowncastle.com"
+  },
+  {
+    "ticker": "CSX",
+    "name": "CSX Corporation",
+    "image": "https://logo.clearbit.com/csx.com"
+  },
+  {
+    "ticker": "CMI",
+    "name": "Cummins",
+    "image": "https://logo.clearbit.com/cummins.com"
+  },
+  {
+    "ticker": "CVS",
+    "name": "CVS Health",
+    "image": "https://logo.clearbit.com/cvshealth.com"
+  },
+  {
+    "ticker": "DHR",
+    "name": "Danaher Corporation",
+    "image": "https://logo.clearbit.com/danaher.com"
+  },
+  {
+    "ticker": "DRI",
+    "name": "Darden Restaurants",
+    "image": "https://logo.clearbit.com/darden.com"
+  },
+  {
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "image": "https://logo.clearbit.com/datadog.com"
+  },
+  {
+    "ticker": "DVA",
+    "name": "DaVita",
+    "image": "https://logo.clearbit.com/davita.com"
+  },
+  {
+    "ticker": "DAY",
+    "name": "Dayforce",
+    "image": "https://logo.clearbit.com/dayforce.com"
+  },
+  {
+    "ticker": "DECK",
+    "name": "Deckers Brands",
+    "image": "https://logo.clearbit.com/deckers.com"
+  },
+  {
+    "ticker": "DE",
+    "name": "Deere & Company",
+    "image": "https://logo.clearbit.com/deere.com"
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "image": "https://logo.clearbit.com/dell.com"
+  },
+  {
+    "ticker": "DAL",
+    "name": "Delta Air Lines",
+    "image": "https://logo.clearbit.com/delta.com"
+  },
+  {
+    "ticker": "DVN",
+    "name": "Devon Energy",
+    "image": "https://logo.clearbit.com/devonenergy.com"
+  },
+  {
+    "ticker": "DXCM",
+    "name": "Dexcom",
+    "image": "https://logo.clearbit.com/dexcom.com"
+  },
+  {
+    "ticker": "FANG",
+    "name": "Diamondback Energy",
+    "image": "https://logo.clearbit.com/diamondbackenergy.com"
+  },
+  {
+    "ticker": "DLR",
+    "name": "Digital Realty",
+    "image": "https://logo.clearbit.com/digitalrealty.com"
+  },
+  {
+    "ticker": "DG",
+    "name": "Dollar General",
+    "image": "https://logo.clearbit.com/dollargeneral.com"
+  },
+  {
+    "ticker": "DLTR",
+    "name": "Dollar Tree",
+    "image": "https://logo.clearbit.com/dollartree.com"
+  },
+  {
+    "ticker": "D",
+    "name": "Dominion Energy",
+    "image": "https://logo.clearbit.com/dominionenergy.com"
+  },
+  {
+    "ticker": "DPZ",
+    "name": "Domino's",
+    "image": "https://logo.clearbit.com/dominos.com"
+  },
+  {
+    "ticker": "DASH",
+    "name": "DoorDash",
+    "image": "https://logo.clearbit.com/doordash.com"
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover Corporation",
+    "image": "https://logo.clearbit.com/dovercorporation.com"
+  },
+  {
+    "ticker": "DOW",
+    "name": "Dow Inc.",
+    "image": "https://logo.clearbit.com/dow.com"
+  },
+  {
+    "ticker": "DHI",
+    "name": "D. R. Horton",
+    "image": "https://logo.clearbit.com/drhorton.com"
+  },
+  {
+    "ticker": "DTE",
+    "name": "DTE Energy",
+    "image": "https://logo.clearbit.com/dteenergy.com"
+  },
+  {
+    "ticker": "DUK",
+    "name": "Duke Energy",
+    "image": "https://logo.clearbit.com/duke-energy.com"
+  },
+  {
+    "ticker": "DD",
+    "name": "DuPont",
+    "image": "https://logo.clearbit.com/dupont.com"
+  },
+  {
+    "ticker": "EMN",
+    "name": "Eastman Chemical Company",
+    "image": "https://logo.clearbit.com/eastman.com"
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton Corporation",
+    "image": "https://logo.clearbit.com/eaton.com"
+  },
+  {
+    "ticker": "EBAY",
+    "name": "eBay Inc.",
+    "image": "https://logo.clearbit.com/ebay.com"
+  },
+  {
+    "ticker": "ECL",
+    "name": "Ecolab",
+    "image": "https://logo.clearbit.com/ecolab.com"
+  },
+  {
+    "ticker": "EIX",
+    "name": "Edison International",
+    "image": "https://logo.clearbit.com/sce.com"
+  },
+  {
+    "ticker": "EW",
+    "name": "Edwards Lifesciences",
+    "image": "https://logo.clearbit.com/edwards.com"
+  },
+  {
+    "ticker": "EA",
+    "name": "Electronic Arts",
+    "image": "https://logo.clearbit.com/ea.com"
+  },
+  {
+    "ticker": "ELV",
+    "name": "Elevance Health",
+    "image": "https://logo.clearbit.com/elevancehealth.com"
+  },
+  {
+    "ticker": "EMR",
+    "name": "Emerson Electric",
+    "image": "https://logo.clearbit.com/emerson.com"
+  },
+  {
+    "ticker": "ENPH",
+    "name": "Enphase Energy",
+    "image": "https://logo.clearbit.com/enphase.com"
+  },
+  {
+    "ticker": "ETR",
+    "name": "Entergy",
+    "image": "https://logo.clearbit.com/entergy.com"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "image": "https://logo.clearbit.com/eogresources.com"
+  },
+  {
+    "ticker": "EPAM",
+    "name": "EPAM Systems",
+    "image": "https://logo.clearbit.com/epam.com"
+  },
+  {
+    "ticker": "EQT",
+    "name": "EQT Corporation",
+    "image": "https://logo.clearbit.com/eqt.com"
+  },
+  {
+    "ticker": "EFX",
+    "name": "Equifax",
+    "image": "https://logo.clearbit.com/equifax.com"
+  },
+  {
+    "ticker": "EQIX",
+    "name": "Equinix",
+    "image": "https://logo.clearbit.com/equinix.com"
+  },
+  {
+    "ticker": "EQR",
+    "name": "Equity Residential",
+    "image": "https://logo.clearbit.com/equityapartments.com"
+  },
+  {
+    "ticker": "ERIE",
+    "name": "Erie Indemnity",
+    "image": "https://logo.clearbit.com/erieinsurance.com"
+  },
+  {
+    "ticker": "ESS",
+    "name": "Essex Property Trust",
+    "image": "https://logo.clearbit.com/essexapartmenthomes.com"
+  },
+  {
+    "ticker": "EL",
+    "name": "Est\u00e9e Lauder Companies (The)",
+    "image": "https://logo.clearbit.com/elcompanies.com"
+  },
+  {
+    "ticker": "EG",
+    "name": "Everest Group",
+    "image": "https://logo.clearbit.com/everest.com"
+  },
+  {
+    "ticker": "EVRG",
+    "name": "Evergy",
+    "image": "https://logo.clearbit.com/evergy.com"
+  },
+  {
+    "ticker": "ES",
+    "name": "Eversource Energy",
+    "image": "https://logo.clearbit.com/eversource.com"
+  },
+  {
+    "ticker": "EXC",
+    "name": "Exelon",
+    "image": "https://logo.clearbit.com/exeloncorp.com"
+  },
+  {
+    "ticker": "EXE",
+    "name": "Expand Energy",
+    "image": "https://logo.clearbit.com/expandenergy.com"
+  },
+  {
+    "ticker": "EXPE",
+    "name": "Expedia Group",
+    "image": "https://logo.clearbit.com/expedia.com"
+  },
+  {
+    "ticker": "EXPD",
+    "name": "Expeditors International",
+    "image": "https://logo.clearbit.com/expeditors.com"
+  },
+  {
+    "ticker": "EXR",
+    "name": "Extra Space Storage",
+    "image": "https://logo.clearbit.com/extraspace.com"
+  },
+  {
+    "ticker": "XOM",
+    "name": "ExxonMobil",
+    "image": "https://logo.clearbit.com/exxonmobil.com"
+  },
+  {
+    "ticker": "FFIV",
+    "name": "F5, Inc.",
+    "image": "https://logo.clearbit.com/f5.com"
+  },
+  {
+    "ticker": "FDS",
+    "name": "FactSet",
+    "image": "https://logo.clearbit.com/factset.com"
+  },
+  {
+    "ticker": "FICO",
+    "name": "Fair Isaac",
+    "image": "https://logo.clearbit.com/fico.com"
+  },
+  {
+    "ticker": "FAST",
+    "name": "Fastenal",
+    "image": "https://logo.clearbit.com/fastenal.com"
+  },
+  {
+    "ticker": "FRT",
+    "name": "Federal Realty Investment Trust",
+    "image": "https://logo.clearbit.com/federalrealty.com"
+  },
+  {
+    "ticker": "FDX",
+    "name": "FedEx",
+    "image": "https://logo.clearbit.com/fedex.com"
+  },
+  {
+    "ticker": "FIS",
+    "name": "Fidelity National Information Services",
+    "image": "https://logo.clearbit.com/fisglobal.com"
+  },
+  {
+    "ticker": "FITB",
+    "name": "Fifth Third Bancorp",
+    "image": "https://logo.clearbit.com/53.com"
+  },
+  {
+    "ticker": "FSLR",
+    "name": "First Solar",
+    "image": "https://logo.clearbit.com/firstsolar.com"
+  },
+  {
+    "ticker": "FE",
+    "name": "FirstEnergy",
+    "image": "https://logo.clearbit.com/firstenergycorp.com"
+  },
+  {
+    "ticker": "FISV",
+    "name": "Fiserv",
+    "image": "https://logo.clearbit.com/fiserv.com"
+  },
+  {
+    "ticker": "F",
+    "name": "Ford Motor Company",
+    "image": "https://logo.clearbit.com/ford.com"
+  },
+  {
+    "ticker": "FTNT",
+    "name": "Fortinet",
+    "image": "https://logo.clearbit.com/fortinet.com"
+  },
+  {
+    "ticker": "FTV",
+    "name": "Fortive",
+    "image": "https://logo.clearbit.com/fortive.com"
+  },
+  {
+    "ticker": "FOXA",
+    "name": "Fox Corporation (Class A)",
+    "image": "https://logo.clearbit.com/foxcorporation.com"
+  },
+  {
+    "ticker": "FOX",
+    "name": "Fox Corporation (Class B)",
+    "image": "https://logo.clearbit.com/foxcorporation.com"
+  },
+  {
+    "ticker": "BEN",
+    "name": "Franklin Resources",
+    "image": "https://logo.clearbit.com/franklintempleton.com"
+  },
+  {
+    "ticker": "FCX",
+    "name": "Freeport-McMoRan",
+    "image": "https://logo.clearbit.com/fcx.com"
+  },
+  {
+    "ticker": "GRMN",
+    "name": "Garmin",
+    "image": "https://logo.clearbit.com/garmin.com"
+  },
+  {
+    "ticker": "IT",
+    "name": "Gartner",
+    "image": "https://logo.clearbit.com/gartner.com"
+  },
+  {
+    "ticker": "GE",
+    "name": "GE Aerospace",
+    "image": "https://logo.clearbit.com/ge.com"
+  },
+  {
+    "ticker": "GEHC",
+    "name": "GE HealthCare",
+    "image": "https://logo.clearbit.com/gehealthcare.com"
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "image": "https://logo.clearbit.com/gevernova.com"
+  },
+  {
+    "ticker": "GEN",
+    "name": "Gen Digital",
+    "image": "https://logo.clearbit.com/gendigital.com"
+  },
+  {
+    "ticker": "GNRC",
+    "name": "Generac",
+    "image": "https://logo.clearbit.com/generac.com"
+  },
+  {
+    "ticker": "GD",
+    "name": "General Dynamics",
+    "image": "https://logo.clearbit.com/gd.com"
+  },
+  {
+    "ticker": "GIS",
+    "name": "General Mills",
+    "image": "https://logo.clearbit.com/generalmills.com"
+  },
+  {
+    "ticker": "GM",
+    "name": "General Motors",
+    "image": "https://logo.clearbit.com/gm.com"
+  },
+  {
+    "ticker": "GPC",
+    "name": "Genuine Parts Company",
+    "image": "https://logo.clearbit.com/genpt.com"
+  },
+  {
+    "ticker": "GILD",
+    "name": "Gilead Sciences",
+    "image": "https://logo.clearbit.com/gilead.com"
+  },
+  {
+    "ticker": "GPN",
+    "name": "Global Payments",
+    "image": "https://logo.clearbit.com/globalpaymentsinc.com"
+  },
+  {
+    "ticker": "GL",
+    "name": "Globe Life",
+    "image": "https://logo.clearbit.com/globelifeinsurance.com"
+  },
+  {
+    "ticker": "GDDY",
+    "name": "GoDaddy",
+    "image": "https://logo.clearbit.com/godaddy.com"
+  },
+  {
+    "ticker": "GS",
+    "name": "Goldman Sachs",
+    "image": "https://logo.clearbit.com/goldmansachs.com"
+  },
+  {
+    "ticker": "HAL",
+    "name": "Halliburton",
+    "image": "https://logo.clearbit.com/halliburton.com"
+  },
+  {
+    "ticker": "HIG",
+    "name": "Hartford (The)",
+    "image": "https://logo.clearbit.com/thehartford.com"
+  },
+  {
+    "ticker": "HAS",
+    "name": "Hasbro",
+    "image": "https://logo.clearbit.com/hasbro.com"
+  },
+  {
+    "ticker": "HCA",
+    "name": "HCA Healthcare",
+    "image": "https://logo.clearbit.com/hcahealthcare.com"
+  },
+  {
+    "ticker": "DOC",
+    "name": "Healthpeak Properties",
+    "image": "https://logo.clearbit.com/healthpeakproperties.com"
+  },
+  {
+    "ticker": "HSIC",
+    "name": "Henry Schein",
+    "image": "https://logo.clearbit.com/henryschein.com"
+  },
+  {
+    "ticker": "HSY",
+    "name": "Hershey Company (The)",
+    "image": "https://logo.clearbit.com/thehersheycompany.com"
+  },
+  {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "image": "https://logo.clearbit.com/hpe.com"
+  },
+  {
+    "ticker": "HLT",
+    "name": "Hilton Worldwide",
+    "image": "https://logo.clearbit.com/hilton.com"
+  },
+  {
+    "ticker": "HOLX",
+    "name": "Hologic",
+    "image": "https://logo.clearbit.com/hologic.com"
+  },
+  {
+    "ticker": "HD",
+    "name": "Home Depot (The)",
+    "image": "https://logo.clearbit.com/homedepot.com"
+  },
+  {
+    "ticker": "HON",
+    "name": "Honeywell",
+    "image": "https://logo.clearbit.com/honeywell.com"
+  },
+  {
+    "ticker": "HRL",
+    "name": "Hormel Foods",
+    "image": "https://logo.clearbit.com/hormelfoods.com"
+  },
+  {
+    "ticker": "HST",
+    "name": "Host Hotels & Resorts",
+    "image": "https://logo.clearbit.com/hosthotels.com"
+  },
+  {
+    "ticker": "HWM",
+    "name": "Howmet Aerospace",
+    "image": "https://logo.clearbit.com/howmet.com"
+  },
+  {
+    "ticker": "HPQ",
+    "name": "HP Inc.",
+    "image": "https://logo.clearbit.com/hp.com"
+  },
+  {
+    "ticker": "HUBB",
+    "name": "Hubbell Incorporated",
+    "image": "https://logo.clearbit.com/hubbell.com"
+  },
+  {
+    "ticker": "HUM",
+    "name": "Humana",
+    "image": "https://logo.clearbit.com/humana.com"
+  },
+  {
+    "ticker": "HBAN",
+    "name": "Huntington Bancshares",
+    "image": "https://logo.clearbit.com/huntington.com"
+  },
+  {
+    "ticker": "HII",
+    "name": "Huntington Ingalls Industries",
+    "image": "https://logo.clearbit.com/huntingtoningalls.com"
+  },
+  {
+    "ticker": "IBM",
+    "name": "IBM",
+    "image": "https://logo.clearbit.com/ibm.com"
+  },
+  {
+    "ticker": "IEX",
+    "name": "IDEX Corporation",
+    "image": "https://logo.clearbit.com/idexcorp.com"
+  },
+  {
+    "ticker": "IDXX",
+    "name": "Idexx Laboratories",
+    "image": "https://logo.clearbit.com/idexx.com"
+  },
+  {
+    "ticker": "ITW",
+    "name": "Illinois Tool Works",
+    "image": "https://logo.clearbit.com/itw.com"
+  },
+  {
+    "ticker": "INCY",
+    "name": "Incyte",
+    "image": "https://logo.clearbit.com/incyte.com"
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "image": "https://logo.clearbit.com/irco.com"
+  },
+  {
+    "ticker": "PODD",
+    "name": "Insulet Corporation",
+    "image": "https://logo.clearbit.com/insulet.com"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "image": "https://logo.clearbit.com/intel.com"
+  },
+  {
+    "ticker": "ICE",
+    "name": "Intercontinental Exchange",
+    "image": "https://logo.clearbit.com/ice.com"
+  },
+  {
+    "ticker": "IFF",
+    "name": "International Flavors & Fragrances",
+    "image": "https://logo.clearbit.com/iff.com"
+  },
+  {
+    "ticker": "IP",
+    "name": "International Paper",
+    "image": "https://logo.clearbit.com/internationalpaper.com"
+  },
+  {
+    "ticker": "IPG",
+    "name": "Interpublic Group of Companies (The)",
+    "image": "https://logo.clearbit.com/interpublic.com"
+  },
+  {
+    "ticker": "INTU",
+    "name": "Intuit",
+    "image": "https://logo.clearbit.com/intuit.com"
+  },
+  {
+    "ticker": "ISRG",
+    "name": "Intuitive Surgical",
+    "image": "https://logo.clearbit.com/intuitive.com"
+  },
+  {
+    "ticker": "IVZ",
+    "name": "Invesco",
+    "image": "https://logo.clearbit.com/invesco.com"
+  },
+  {
+    "ticker": "INVH",
+    "name": "Invitation Homes",
+    "image": "https://logo.clearbit.com/invitationhomes.com"
+  },
+  {
+    "ticker": "IQV",
+    "name": "IQVIA",
+    "image": "https://logo.clearbit.com/iqvia.com"
+  },
+  {
+    "ticker": "IRM",
+    "name": "Iron Mountain",
+    "image": "https://logo.clearbit.com/ironmountain.com"
+  },
+  {
+    "ticker": "JBHT",
+    "name": "J.B. Hunt",
+    "image": "https://logo.clearbit.com/jbhunt.com"
+  },
+  {
+    "ticker": "JBL",
+    "name": "Jabil",
+    "image": "https://logo.clearbit.com/jabil.com"
+  },
+  {
+    "ticker": "JKHY",
+    "name": "Jack Henry & Associates",
+    "image": "https://logo.clearbit.com/jackhenry.com"
+  },
+  {
+    "ticker": "J",
+    "name": "Jacobs Solutions",
+    "image": "https://logo.clearbit.com/jacobs.com"
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "image": "https://logo.clearbit.com/jnj.com"
+  },
+  {
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "image": "https://logo.clearbit.com/johnsoncontrols.com"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase",
+    "image": "https://logo.clearbit.com/jpmorganchase.com"
+  },
+  {
+    "ticker": "K",
+    "name": "Kellanova",
+    "image": "https://logo.clearbit.com/kellanova.com"
+  },
+  {
+    "ticker": "KVUE",
+    "name": "Kenvue",
+    "image": "https://logo.clearbit.com/kenvue.com"
+  },
+  {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "image": "https://logo.clearbit.com/keurigdrpepper.com"
+  },
+  {
+    "ticker": "KEY",
+    "name": "KeyCorp",
+    "image": "https://logo.clearbit.com/key.com"
+  },
+  {
+    "ticker": "KEYS",
+    "name": "Keysight Technologies",
+    "image": "https://logo.clearbit.com/keysight.com"
+  },
+  {
+    "ticker": "KMB",
+    "name": "Kimberly-Clark",
+    "image": "https://logo.clearbit.com/kimberly-clark.com"
+  },
+  {
+    "ticker": "KIM",
+    "name": "Kimco Realty",
+    "image": "https://logo.clearbit.com/kimcorealty.com"
+  },
+  {
+    "ticker": "KMI",
+    "name": "Kinder Morgan",
+    "image": "https://logo.clearbit.com/kindermorgan.com"
+  },
+  {
+    "ticker": "KKR",
+    "name": "KKR & Co.",
+    "image": "https://logo.clearbit.com/kkr.com"
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA Corporation",
+    "image": "https://logo.clearbit.com/kla.com"
+  },
+  {
+    "ticker": "KHC",
+    "name": "Kraft Heinz",
+    "image": "https://logo.clearbit.com/kraftheinzcompany.com"
+  },
+  {
+    "ticker": "KR",
+    "name": "Kroger",
+    "image": "https://logo.clearbit.com/kroger.com"
+  },
+  {
+    "ticker": "LHX",
+    "name": "L3Harris",
+    "image": "https://logo.clearbit.com/l3harris.com"
+  },
+  {
+    "ticker": "LH",
+    "name": "Labcorp",
+    "image": "https://logo.clearbit.com/labcorp.com"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "image": "https://logo.clearbit.com/lamresearch.com"
+  },
+  {
+    "ticker": "LW",
+    "name": "Lamb Weston",
+    "image": "https://logo.clearbit.com/lambweston.com"
+  },
+  {
+    "ticker": "LVS",
+    "name": "Las Vegas Sands",
+    "image": "https://logo.clearbit.com/sands.com"
+  },
+  {
+    "ticker": "LDOS",
+    "name": "Leidos",
+    "image": "https://logo.clearbit.com/leidos.com"
+  },
+  {
+    "ticker": "LEN",
+    "name": "Lennar",
+    "image": "https://logo.clearbit.com/lennar.com"
+  },
+  {
+    "ticker": "LII",
+    "name": "Lennox International",
+    "image": "https://logo.clearbit.com/lennoxinternational.com"
+  },
+  {
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
+    "image": "https://logo.clearbit.com/lilly.com"
+  },
+  {
+    "ticker": "LIN",
+    "name": "Linde plc",
+    "image": "https://logo.clearbit.com/linde.com"
+  },
+  {
+    "ticker": "LYV",
+    "name": "Live Nation Entertainment",
+    "image": "https://logo.clearbit.com/livenationentertainment.com"
+  },
+  {
+    "ticker": "LKQ",
+    "name": "LKQ Corporation",
+    "image": "https://logo.clearbit.com/lkqcorp.com"
+  },
+  {
+    "ticker": "LMT",
+    "name": "Lockheed Martin",
+    "image": "https://logo.clearbit.com/lockheedmartin.com"
+  },
+  {
+    "ticker": "L",
+    "name": "Loews Corporation",
+    "image": "https://logo.clearbit.com/loews.com"
+  },
+  {
+    "ticker": "LOW",
+    "name": "Lowe's",
+    "image": "https://logo.clearbit.com/lowes.com"
+  },
+  {
+    "ticker": "LULU",
+    "name": "Lululemon Athletica",
+    "image": "https://logo.clearbit.com/lululemon.com"
+  },
+  {
+    "ticker": "LYB",
+    "name": "LyondellBasell",
+    "image": "https://logo.clearbit.com/lyondellbasell.com"
+  },
+  {
+    "ticker": "MTB",
+    "name": "M&T Bank",
+    "image": "https://logo.clearbit.com/mtb.com"
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "image": "https://logo.clearbit.com/marathonpetroleum.com"
+  },
+  {
+    "ticker": "MKTX",
+    "name": "MarketAxess",
+    "image": "https://logo.clearbit.com/marketaxess.com"
+  },
+  {
+    "ticker": "MAR",
+    "name": "Marriott International",
+    "image": "https://logo.clearbit.com/marriott.com"
+  },
+  {
+    "ticker": "MMC",
+    "name": "Marsh McLennan",
+    "image": "https://logo.clearbit.com/marshmclennan.com"
+  },
+  {
+    "ticker": "MLM",
+    "name": "Martin Marietta Materials",
+    "image": "https://logo.clearbit.com/martinmarietta.com"
+  },
+  {
+    "ticker": "MAS",
+    "name": "Masco",
+    "image": "https://logo.clearbit.com/masco.com"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard",
+    "image": "https://logo.clearbit.com/mastercard.com"
+  },
+  {
+    "ticker": "MTCH",
+    "name": "Match Group",
+    "image": "https://logo.clearbit.com/match.com"
+  },
+  {
+    "ticker": "MKC",
+    "name": "McCormick & Company",
+    "image": "https://logo.clearbit.com/mccormickcorporation.com"
+  },
+  {
+    "ticker": "MCD",
+    "name": "McDonald's",
+    "image": "https://logo.clearbit.com/mcdonalds.com"
+  },
+  {
+    "ticker": "MCK",
+    "name": "McKesson Corporation",
+    "image": "https://logo.clearbit.com/mckesson.com"
+  },
+  {
+    "ticker": "MDT",
+    "name": "Medtronic",
+    "image": "https://logo.clearbit.com/medtronic.com"
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck & Co.",
+    "image": "https://logo.clearbit.com/merck.com"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms",
+    "image": "https://logo.clearbit.com/meta.com"
+  },
+  {
+    "ticker": "MET",
+    "name": "MetLife",
+    "image": "https://logo.clearbit.com/metlife.com"
+  },
+  {
+    "ticker": "MTD",
+    "name": "Mettler Toledo",
+    "image": "https://logo.clearbit.com/mt.com"
+  },
+  {
+    "ticker": "MGM",
+    "name": "MGM Resorts",
+    "image": "https://logo.clearbit.com/mgmresorts.com"
+  },
+  {
+    "ticker": "MCHP",
+    "name": "Microchip Technology",
+    "image": "https://logo.clearbit.com/microchip.com"
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "image": "https://logo.clearbit.com/micron.com"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "image": "https://logo.clearbit.com/microsoft.com"
+  },
+  {
+    "ticker": "MAA",
+    "name": "Mid-America Apartment Communities",
+    "image": "https://logo.clearbit.com/maac.com"
+  },
+  {
+    "ticker": "MRNA",
+    "name": "Moderna",
+    "image": "https://logo.clearbit.com/modernatx.com"
+  },
+  {
+    "ticker": "MHK",
+    "name": "Mohawk Industries",
+    "image": "https://logo.clearbit.com/mohawkind.com"
+  },
+  {
+    "ticker": "MOH",
+    "name": "Molina Healthcare",
+    "image": "https://logo.clearbit.com/molina.com"
+  },
+  {
+    "ticker": "TAP",
+    "name": "Molson Coors Beverage Company",
+    "image": "https://logo.clearbit.com/molsoncoors.com"
+  },
+  {
+    "ticker": "MDLZ",
+    "name": "Mondelez International",
+    "image": "https://logo.clearbit.com/mondelezinternational.com"
+  },
+  {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems",
+    "image": "https://logo.clearbit.com/monolithicpower.com"
+  },
+  {
+    "ticker": "MNST",
+    "name": "Monster Beverage",
+    "image": "https://logo.clearbit.com/monsterbevcorp.com"
+  },
+  {
+    "ticker": "MCO",
+    "name": "Moody's Corporation",
+    "image": "https://logo.clearbit.com/moodys.com"
+  },
+  {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "image": "https://logo.clearbit.com/morganstanley.com"
+  },
+  {
+    "ticker": "MOS",
+    "name": "Mosaic Company (The)",
+    "image": "https://logo.clearbit.com/mosaicco.com"
+  },
+  {
+    "ticker": "MSI",
+    "name": "Motorola Solutions",
+    "image": "https://logo.clearbit.com/motorolasolutions.com"
+  },
+  {
+    "ticker": "MSCI",
+    "name": "MSCI Inc.",
+    "image": "https://logo.clearbit.com/msci.com"
+  },
+  {
+    "ticker": "NDAQ",
+    "name": "Nasdaq, Inc.",
+    "image": "https://logo.clearbit.com/nasdaq.com"
+  },
+  {
+    "ticker": "NTAP",
+    "name": "NetApp",
+    "image": "https://logo.clearbit.com/netapp.com"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Netflix",
+    "image": "https://logo.clearbit.com/netflix.com"
+  },
+  {
+    "ticker": "NEM",
+    "name": "Newmont",
+    "image": "https://logo.clearbit.com/newmont.com"
+  },
+  {
+    "ticker": "NWSA",
+    "name": "News Corp (Class A)",
+    "image": "https://logo.clearbit.com/newscorp.com"
+  },
+  {
+    "ticker": "NWS",
+    "name": "News Corp (Class B)",
+    "image": "https://logo.clearbit.com/newscorp.com"
+  },
+  {
+    "ticker": "NEE",
+    "name": "NextEra Energy",
+    "image": "https://logo.clearbit.com/nexteraenergy.com"
+  },
+  {
+    "ticker": "NKE",
+    "name": "Nike, Inc.",
+    "image": "https://logo.clearbit.com/nike.com"
+  },
+  {
+    "ticker": "NI",
+    "name": "NiSource",
+    "image": "https://logo.clearbit.com/nisource.com"
+  },
+  {
+    "ticker": "NDSN",
+    "name": "Nordson Corporation",
+    "image": "https://logo.clearbit.com/nordson.com"
+  },
+  {
+    "ticker": "NSC",
+    "name": "Norfolk Southern",
+    "image": "https://logo.clearbit.com/nscorp.com"
+  },
+  {
+    "ticker": "NTRS",
+    "name": "Northern Trust",
+    "image": "https://logo.clearbit.com/northerntrust.com"
+  },
+  {
+    "ticker": "NOC",
+    "name": "Northrop Grumman",
+    "image": "https://logo.clearbit.com/northropgrumman.com"
+  },
+  {
+    "ticker": "NCLH",
+    "name": "Norwegian Cruise Line Holdings",
+    "image": "https://logo.clearbit.com/ncl.com"
+  },
+  {
+    "ticker": "NRG",
+    "name": "NRG Energy",
+    "image": "https://logo.clearbit.com/nrg.com"
+  },
+  {
+    "ticker": "NUE",
+    "name": "Nucor",
+    "image": "https://logo.clearbit.com/nucor.com"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "image": "https://logo.clearbit.com/nvidia.com"
+  },
+  {
+    "ticker": "NVR",
+    "name": "NVR, Inc.",
+    "image": "https://logo.clearbit.com/nvrinc.com"
+  },
+  {
+    "ticker": "NXPI",
+    "name": "NXP Semiconductors",
+    "image": "https://logo.clearbit.com/nxp.com"
+  },
+  {
+    "ticker": "ORLY",
+    "name": "O\u2019Reilly Automotive",
+    "image": "https://logo.clearbit.com/oreillyauto.com"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental Petroleum",
+    "image": "https://logo.clearbit.com/oxy.com"
+  },
+  {
+    "ticker": "ODFL",
+    "name": "Old Dominion",
+    "image": "https://logo.clearbit.com/odfl.com"
+  },
+  {
+    "ticker": "OMC",
+    "name": "Omnicom Group",
+    "image": "https://logo.clearbit.com/omnicomgroup.com"
+  },
+  {
+    "ticker": "ON",
+    "name": "ON Semiconductor",
+    "image": "https://logo.clearbit.com/onsemi.com"
+  },
+  {
+    "ticker": "OKE",
+    "name": "Oneok",
+    "image": "https://logo.clearbit.com/oneok.com"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle Corporation",
+    "image": "https://logo.clearbit.com/oracle.com"
+  },
+  {
+    "ticker": "OTIS",
+    "name": "Otis Worldwide",
+    "image": "https://logo.clearbit.com/otis.com"
+  },
+  {
+    "ticker": "PCAR",
+    "name": "Paccar",
+    "image": "https://logo.clearbit.com/paccar.com"
+  },
+  {
+    "ticker": "PKG",
+    "name": "Packaging Corporation of America",
+    "image": "https://logo.clearbit.com/packagingcorp.com"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies",
+    "image": "https://logo.clearbit.com/palantir.com"
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "image": "https://logo.clearbit.com/paloaltonetworks.com"
+  },
+  {
+    "ticker": "PSKY",
+    "name": "Paramount Skydance Corporation",
+    "image": "https://logo.clearbit.com/paramountskydanceoration.com"
+  },
+  {
+    "ticker": "PH",
+    "name": "Parker Hannifin",
+    "image": "https://logo.clearbit.com/parker.com"
+  },
+  {
+    "ticker": "PAYX",
+    "name": "Paychex",
+    "image": "https://logo.clearbit.com/paychex.com"
+  },
+  {
+    "ticker": "PAYC",
+    "name": "Paycom",
+    "image": "https://logo.clearbit.com/paycom.com"
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal",
+    "image": "https://logo.clearbit.com/paypal.com"
+  },
+  {
+    "ticker": "PNR",
+    "name": "Pentair",
+    "image": "https://logo.clearbit.com/pentair.com"
+  },
+  {
+    "ticker": "PEP",
+    "name": "PepsiCo",
+    "image": "https://logo.clearbit.com/pepsico.com"
+  },
+  {
+    "ticker": "PFE",
+    "name": "Pfizer",
+    "image": "https://logo.clearbit.com/pfizer.com"
+  },
+  {
+    "ticker": "PCG",
+    "name": "PG&E Corporation",
+    "image": "https://logo.clearbit.com/pge.com"
+  },
+  {
+    "ticker": "PM",
+    "name": "Philip Morris International",
+    "image": "https://logo.clearbit.com/pmi.com"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "image": "https://logo.clearbit.com/phillips66.com"
+  },
+  {
+    "ticker": "PNW",
+    "name": "Pinnacle West Capital",
+    "image": "https://logo.clearbit.com/pinnaclewest.com"
+  },
+  {
+    "ticker": "PNC",
+    "name": "PNC Financial Services",
+    "image": "https://logo.clearbit.com/pnc.com"
+  },
+  {
+    "ticker": "POOL",
+    "name": "Pool Corporation",
+    "image": "https://logo.clearbit.com/poolcorp.com"
+  },
+  {
+    "ticker": "PPG",
+    "name": "PPG Industries",
+    "image": "https://logo.clearbit.com/ppg.com"
+  },
+  {
+    "ticker": "PPL",
+    "name": "PPL Corporation",
+    "image": "https://logo.clearbit.com/pplweb.com"
+  },
+  {
+    "ticker": "PFG",
+    "name": "Principal Financial Group",
+    "image": "https://logo.clearbit.com/principal.com"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "image": "https://logo.clearbit.com/pg.com"
+  },
+  {
+    "ticker": "PGR",
+    "name": "Progressive Corporation",
+    "image": "https://logo.clearbit.com/progressive.com"
+  },
+  {
+    "ticker": "PLD",
+    "name": "Prologis",
+    "image": "https://logo.clearbit.com/prologis.com"
+  },
+  {
+    "ticker": "PRU",
+    "name": "Prudential Financial",
+    "image": "https://logo.clearbit.com/prudential.com"
+  },
+  {
+    "ticker": "PEG",
+    "name": "Public Service Enterprise Group",
+    "image": "https://logo.clearbit.com/pseg.com"
+  },
+  {
+    "ticker": "PTC",
+    "name": "PTC Inc.",
+    "image": "https://logo.clearbit.com/ptc.com"
+  },
+  {
+    "ticker": "PSA",
+    "name": "Public Storage",
+    "image": "https://logo.clearbit.com/publicstorage.com"
+  },
+  {
+    "ticker": "PHM",
+    "name": "PulteGroup",
+    "image": "https://logo.clearbit.com/pultehomes.com"
+  },
+  {
+    "ticker": "PWR",
+    "name": "Quanta Services",
+    "image": "https://logo.clearbit.com/quantaservices.com"
+  },
+  {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "image": "https://logo.clearbit.com/qualcomm.com"
+  },
+  {
+    "ticker": "DGX",
+    "name": "Quest Diagnostics",
+    "image": "https://logo.clearbit.com/questdiagnostics.com"
+  },
+  {
+    "ticker": "RL",
+    "name": "Ralph Lauren Corporation",
+    "image": "https://logo.clearbit.com/ralphlauren.com"
+  },
+  {
+    "ticker": "RJF",
+    "name": "Raymond James Financial",
+    "image": "https://logo.clearbit.com/raymondjames.com"
+  },
+  {
+    "ticker": "RTX",
+    "name": "RTX Corporation",
+    "image": "https://logo.clearbit.com/rtx.com"
+  },
+  {
+    "ticker": "O",
+    "name": "Realty Income",
+    "image": "https://logo.clearbit.com/realtyincome.com"
+  },
+  {
+    "ticker": "REG",
+    "name": "Regency Centers",
+    "image": "https://logo.clearbit.com/regencycenters.com"
+  },
+  {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals",
+    "image": "https://logo.clearbit.com/regeneron.com"
+  },
+  {
+    "ticker": "RF",
+    "name": "Regions Financial Corporation",
+    "image": "https://logo.clearbit.com/regions.com"
+  },
+  {
+    "ticker": "RSG",
+    "name": "Republic Services",
+    "image": "https://logo.clearbit.com/republicservices.com"
+  },
+  {
+    "ticker": "RMD",
+    "name": "ResMed",
+    "image": "https://logo.clearbit.com/resmed.com"
+  },
+  {
+    "ticker": "RVTY",
+    "name": "Revvity",
+    "image": "https://logo.clearbit.com/revvity.com"
+  },
+  {
+    "ticker": "ROK",
+    "name": "Rockwell Automation",
+    "image": "https://logo.clearbit.com/rockwellautomation.com"
+  },
+  {
+    "ticker": "ROL",
+    "name": "Rollins, Inc.",
+    "image": "https://logo.clearbit.com/rollins.com"
+  },
+  {
+    "ticker": "ROP",
+    "name": "Roper Technologies",
+    "image": "https://logo.clearbit.com/ropertech.com"
+  },
+  {
+    "ticker": "ROST",
+    "name": "Ross Stores",
+    "image": "https://logo.clearbit.com/rossstores.com"
+  },
+  {
+    "ticker": "RCL",
+    "name": "Royal Caribbean Group",
+    "image": "https://logo.clearbit.com/rccl.com"
+  },
+  {
+    "ticker": "SPGI",
+    "name": "S&P Global",
+    "image": "https://logo.clearbit.com/spglobal.com"
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce",
+    "image": "https://logo.clearbit.com/salesforce.com"
+  },
+  {
+    "ticker": "SBAC",
+    "name": "SBA Communications",
+    "image": "https://logo.clearbit.com/sbasite.com"
+  },
+  {
+    "ticker": "SLB",
+    "name": "Schlumberger",
+    "image": "https://logo.clearbit.com/slb.com"
+  },
+  {
+    "ticker": "STX",
+    "name": "Seagate Technology",
+    "image": "https://logo.clearbit.com/seagate.com"
+  },
+  {
+    "ticker": "SRE",
+    "name": "Sempra",
+    "image": "https://logo.clearbit.com/sempra.com"
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "image": "https://logo.clearbit.com/servicenow.com"
+  },
+  {
+    "ticker": "SHW",
+    "name": "Sherwin-Williams",
+    "image": "https://logo.clearbit.com/sherwin-williams.com"
+  },
+  {
+    "ticker": "SPG",
+    "name": "Simon Property Group",
+    "image": "https://logo.clearbit.com/simon.com"
+  },
+  {
+    "ticker": "SWKS",
+    "name": "Skyworks Solutions",
+    "image": "https://logo.clearbit.com/skyworksinc.com"
+  },
+  {
+    "ticker": "SJM",
+    "name": "J.M. Smucker Company (The)",
+    "image": "https://logo.clearbit.com/jmsmucker.com"
+  },
+  {
+    "ticker": "SW",
+    "name": "Smurfit Westrock",
+    "image": "https://logo.clearbit.com/smurfitkappa.com"
+  },
+  {
+    "ticker": "SNA",
+    "name": "Snap-on",
+    "image": "https://logo.clearbit.com/snapon.com"
+  },
+  {
+    "ticker": "SOLV",
+    "name": "Solventum",
+    "image": "https://logo.clearbit.com/solventum.com"
+  },
+  {
+    "ticker": "SO",
+    "name": "Southern Company",
+    "image": "https://logo.clearbit.com/southerncompany.com"
+  },
+  {
+    "ticker": "LUV",
+    "name": "Southwest Airlines",
+    "image": "https://logo.clearbit.com/southwest.com"
+  },
+  {
+    "ticker": "SWK",
+    "name": "Stanley Black & Decker",
+    "image": "https://logo.clearbit.com/stanleyblackanddecker.com"
+  },
+  {
+    "ticker": "SBUX",
+    "name": "Starbucks",
+    "image": "https://logo.clearbit.com/starbucks.com"
+  },
+  {
+    "ticker": "STT",
+    "name": "State Street Corporation",
+    "image": "https://logo.clearbit.com/statestreet.com"
+  },
+  {
+    "ticker": "STLD",
+    "name": "Steel Dynamics",
+    "image": "https://logo.clearbit.com/steeldynamics.com"
+  },
+  {
+    "ticker": "STE",
+    "name": "Steris",
+    "image": "https://logo.clearbit.com/steris.com"
+  },
+  {
+    "ticker": "SYK",
+    "name": "Stryker Corporation",
+    "image": "https://logo.clearbit.com/stryker.com"
+  },
+  {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "image": "https://logo.clearbit.com/supermicro.com"
+  },
+  {
+    "ticker": "SYF",
+    "name": "Synchrony Financial",
+    "image": "https://logo.clearbit.com/synchronyfinancial.com"
+  },
+  {
+    "ticker": "SNPS",
+    "name": "Synopsys",
+    "image": "https://logo.clearbit.com/synopsys.com"
+  },
+  {
+    "ticker": "SYY",
+    "name": "Sysco",
+    "image": "https://logo.clearbit.com/sysco.com"
+  },
+  {
+    "ticker": "TMUS",
+    "name": "T-Mobile US",
+    "image": "https://logo.clearbit.com/t-mobile.com"
+  },
+  {
+    "ticker": "TROW",
+    "name": "T. Rowe Price",
+    "image": "https://logo.clearbit.com/troweprice.com"
+  },
+  {
+    "ticker": "TTWO",
+    "name": "Take-Two Interactive",
+    "image": "https://logo.clearbit.com/take2games.com"
+  },
+  {
+    "ticker": "TPR",
+    "name": "Tapestry, Inc.",
+    "image": "https://logo.clearbit.com/tapestry.com"
+  },
+  {
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "image": "https://logo.clearbit.com/trgp.com"
+  },
+  {
+    "ticker": "TGT",
+    "name": "Target Corporation",
+    "image": "https://logo.clearbit.com/target.com"
+  },
+  {
+    "ticker": "TEL",
+    "name": "TE Connectivity",
+    "image": "https://logo.clearbit.com/te.com"
+  },
+  {
+    "ticker": "TDY",
+    "name": "Teledyne Technologies",
+    "image": "https://logo.clearbit.com/teledyne.com"
+  },
+  {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "image": "https://logo.clearbit.com/teradyne.com"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla, Inc.",
+    "image": "https://logo.clearbit.com/tesla.com"
+  },
+  {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "image": "https://logo.clearbit.com/ti.com"
+  },
+  {
+    "ticker": "TPL",
+    "name": "Texas Pacific Land Corporation",
+    "image": "https://logo.clearbit.com/texaspacificlandoration.com"
+  },
+  {
+    "ticker": "TXT",
+    "name": "Textron",
+    "image": "https://logo.clearbit.com/textron.com"
+  },
+  {
+    "ticker": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "image": "https://logo.clearbit.com/thermofisher.com"
+  },
+  {
+    "ticker": "TJX",
+    "name": "TJX Companies",
+    "image": "https://logo.clearbit.com/tjx.com"
+  },
+  {
+    "ticker": "TKO",
+    "name": "TKO Group Holdings",
+    "image": "https://logo.clearbit.com/tko.com"
+  },
+  {
+    "ticker": "TTD",
+    "name": "Trade Desk (The)",
+    "image": "https://logo.clearbit.com/tradedeskthe.com"
+  },
+  {
+    "ticker": "TSCO",
+    "name": "Tractor Supply",
+    "image": "https://logo.clearbit.com/tractorsupply.com"
+  },
+  {
+    "ticker": "TT",
+    "name": "Trane Technologies",
+    "image": "https://logo.clearbit.com/tranetechnologies.com"
+  },
+  {
+    "ticker": "TDG",
+    "name": "TransDigm Group",
+    "image": "https://logo.clearbit.com/transdigm.com"
+  },
+  {
+    "ticker": "TRV",
+    "name": "Travelers Companies (The)",
+    "image": "https://logo.clearbit.com/travelers.com"
+  },
+  {
+    "ticker": "TRMB",
+    "name": "Trimble Inc.",
+    "image": "https://logo.clearbit.com/trimble.com"
+  },
+  {
+    "ticker": "TFC",
+    "name": "Truist Financial",
+    "image": "https://logo.clearbit.com/truist.com"
+  },
+  {
+    "ticker": "TYL",
+    "name": "Tyler Technologies",
+    "image": "https://logo.clearbit.com/tylertech.com"
+  },
+  {
+    "ticker": "TSN",
+    "name": "Tyson Foods",
+    "image": "https://logo.clearbit.com/tysonfoods.com"
+  },
+  {
+    "ticker": "USB",
+    "name": "U.S. Bancorp",
+    "image": "https://logo.clearbit.com/usbank.com"
+  },
+  {
+    "ticker": "UBER",
+    "name": "Uber",
+    "image": "https://logo.clearbit.com/uber.com"
+  },
+  {
+    "ticker": "UDR",
+    "name": "UDR, Inc.",
+    "image": "https://logo.clearbit.com/udr.com"
+  },
+  {
+    "ticker": "ULTA",
+    "name": "Ulta Beauty",
+    "image": "https://logo.clearbit.com/ulta.com"
+  },
+  {
+    "ticker": "UNP",
+    "name": "Union Pacific Corporation",
+    "image": "https://logo.clearbit.com/up.com"
+  },
+  {
+    "ticker": "UAL",
+    "name": "United Airlines Holdings",
+    "image": "https://logo.clearbit.com/united.com"
+  },
+  {
+    "ticker": "UPS",
+    "name": "United Parcel Service",
+    "image": "https://logo.clearbit.com/ups.com"
+  },
+  {
+    "ticker": "URI",
+    "name": "United Rentals",
+    "image": "https://logo.clearbit.com/unitedrentals.com"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UnitedHealth Group",
+    "image": "https://logo.clearbit.com/unitedhealthgroup.com"
+  },
+  {
+    "ticker": "UHS",
+    "name": "Universal Health Services",
+    "image": "https://logo.clearbit.com/uhsinc.com"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "image": "https://logo.clearbit.com/valero.com"
+  },
+  {
+    "ticker": "VTR",
+    "name": "Ventas",
+    "image": "https://logo.clearbit.com/ventasreit.com"
+  },
+  {
+    "ticker": "VLTO",
+    "name": "Veralto",
+    "image": "https://logo.clearbit.com/veralto.com"
+  },
+  {
+    "ticker": "VRSN",
+    "name": "Verisign",
+    "image": "https://logo.clearbit.com/verisign.com"
+  },
+  {
+    "ticker": "VRSK",
+    "name": "Verisk Analytics",
+    "image": "https://logo.clearbit.com/verisk.com"
+  },
+  {
+    "ticker": "VZ",
+    "name": "Verizon",
+    "image": "https://logo.clearbit.com/verizon.com"
+  },
+  {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "image": "https://logo.clearbit.com/vrtx.com"
+  },
+  {
+    "ticker": "VTRS",
+    "name": "Viatris",
+    "image": "https://logo.clearbit.com/viatris.com"
+  },
+  {
+    "ticker": "VICI",
+    "name": "Vici Properties",
+    "image": "https://logo.clearbit.com/vfreit.com"
+  },
+  {
+    "ticker": "V",
+    "name": "Visa Inc.",
+    "image": "https://logo.clearbit.com/visa.com"
+  },
+  {
+    "ticker": "VST",
+    "name": "Vistra Corp.",
+    "image": "https://logo.clearbit.com/vistraenergy.com"
+  },
+  {
+    "ticker": "VMC",
+    "name": "Vulcan Materials Company",
+    "image": "https://logo.clearbit.com/vulcanmaterials.com"
+  },
+  {
+    "ticker": "WRB",
+    "name": "W. R. Berkley Corporation",
+    "image": "https://logo.clearbit.com/berkley.com"
+  },
+  {
+    "ticker": "GWW",
+    "name": "W. W. Grainger",
+    "image": "https://logo.clearbit.com/grainger.com"
+  },
+  {
+    "ticker": "WAB",
+    "name": "Wabtec",
+    "image": "https://logo.clearbit.com/wabteccorp.com"
+  },
+  {
+    "ticker": "WBA",
+    "name": "Walgreens Boots Alliance",
+    "image": "https://logo.clearbit.com/walgreensbootsalliance.com"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart",
+    "image": "https://logo.clearbit.com/walmart.com"
+  },
+  {
+    "ticker": "DIS",
+    "name": "Walt Disney Company (The)",
+    "image": "https://logo.clearbit.com/disney.com"
+  },
+  {
+    "ticker": "WBD",
+    "name": "Warner Bros. Discovery",
+    "image": "https://logo.clearbit.com/wbd.com"
+  },
+  {
+    "ticker": "WM",
+    "name": "Waste Management",
+    "image": "https://logo.clearbit.com/wm.com"
+  },
+  {
+    "ticker": "WAT",
+    "name": "Waters Corporation",
+    "image": "https://logo.clearbit.com/waters.com"
+  },
+  {
+    "ticker": "WEC",
+    "name": "WEC Energy Group",
+    "image": "https://logo.clearbit.com/wecenergygroup.com"
+  },
+  {
+    "ticker": "WFC",
+    "name": "Wells Fargo",
+    "image": "https://logo.clearbit.com/wellsfargo.com"
+  },
+  {
+    "ticker": "WELL",
+    "name": "Welltower",
+    "image": "https://logo.clearbit.com/welltower.com"
+  },
+  {
+    "ticker": "WST",
+    "name": "West Pharmaceutical Services",
+    "image": "https://logo.clearbit.com/westpharma.com"
+  },
+  {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "image": "https://logo.clearbit.com/westerndigital.com"
+  },
+  {
+    "ticker": "WY",
+    "name": "Weyerhaeuser",
+    "image": "https://logo.clearbit.com/weyerhaeuser.com"
+  },
+  {
+    "ticker": "WSM",
+    "name": "Williams-Sonoma, Inc.",
+    "image": "https://logo.clearbit.com/williamssonoma.com"
+  },
+  {
+    "ticker": "WMB",
+    "name": "Williams Companies",
+    "image": "https://logo.clearbit.com/williams.com"
+  },
+  {
+    "ticker": "WTW",
+    "name": "Willis Towers Watson",
+    "image": "https://logo.clearbit.com/wtwco.com"
+  },
+  {
+    "ticker": "WDAY",
+    "name": "Workday, Inc.",
+    "image": "https://logo.clearbit.com/workday.com"
+  },
+  {
+    "ticker": "WYNN",
+    "name": "Wynn Resorts",
+    "image": "https://logo.clearbit.com/wynnresorts.com"
+  },
+  {
+    "ticker": "XEL",
+    "name": "Xcel Energy",
+    "image": "https://logo.clearbit.com/xcelenergy.com"
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem Inc.",
+    "image": "https://logo.clearbit.com/xylem.com"
+  },
+  {
+    "ticker": "YUM",
+    "name": "Yum! Brands",
+    "image": "https://logo.clearbit.com/yum.com"
+  },
+  {
+    "ticker": "ZBRA",
+    "name": "Zebra Technologies",
+    "image": "https://logo.clearbit.com/zebra.com"
+  },
+  {
+    "ticker": "ZBH",
+    "name": "Zimmer Biomet",
+    "image": "https://logo.clearbit.com/zimmerbiomet.com"
+  },
+  {
+    "ticker": "ZTS",
+    "name": "Zoetis",
+    "image": "https://logo.clearbit.com/zoetis.com"
+  }
+]

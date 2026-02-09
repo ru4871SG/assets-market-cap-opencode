@@ -1,0 +1,239 @@
+.inventory-chart-container {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 24px;
+  border: 1px solid var(--border-color);
+}
+
+.inventory-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.inventory-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.inventory-chart-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.inventory-change {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.inventory-change.positive {
+  color: #00c853;
+  background: rgba(0, 200, 83, 0.1);
+}
+
+.inventory-change.negative {
+  color: #ff5252;
+  background: rgba(255, 82, 82, 0.1);
+}
+
+.inventory-time-range {
+  display: flex;
+  gap: 6px;
+}
+
+.time-range-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.time-range-btn:hover {
+  border-color: var(--text-secondary);
+}
+
+.time-range-btn.active {
+  background: var(--primary-color, #4a90d9);
+  border-color: var(--primary-color, #4a90d9);
+  color: white;
+}
+
+.inventory-metadata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.inventory-source,
+.inventory-updated {
+  margin: 0;
+}
+
+.inventory-chart-wrapper {
+  margin: 16px 0;
+}
+
+.inventory-chart-loading,
+.inventory-chart-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  color: var(--text-secondary);
+}
+
+.inventory-chart-loading .loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--primary-color, #4a90d9);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inventory-chart-error .error-detail {
+  font-size: 0.8rem;
+  color: #ff5252;
+  margin-top: 8px;
+}
+
+.inventory-description {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.inventory-description p {
+  margin: 0;
+}
+
+.inventory-description .inventory-notes {
+  margin-top: 8px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Tooltip styles */
+.inventory-tooltip {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.inventory-tooltip .tooltip-date {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.inventory-tooltip .tooltip-values {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.inventory-tooltip .tooltip-values p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.inventory-tooltip .tooltip-label {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.inventory-tooltip .tooltip-value {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.inventory-tooltip .tooltip-total .tooltip-value {
+  color: #00c853;
+}
+
+.inventory-tooltip .tooltip-registered .tooltip-value {
+  color: #ffd700;
+}
+
+.inventory-tooltip .tooltip-eligible .tooltip-value {
+  color: #c0c0c0;
+}
+
+/* Legend customization */
+.inventory-chart-wrapper .recharts-legend-wrapper {
+  font-size: 0.8rem;
+}
+
+.inventory-chart-wrapper .recharts-legend-item-text {
+  color: var(--text-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .inventory-chart-container {
+    padding: 16px;
+  }
+
+  .inventory-chart-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .inventory-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .inventory-time-range {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .time-range-btn {
+    flex: 1;
+    text-align: center;
+  }
+
+  .inventory-metadata {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

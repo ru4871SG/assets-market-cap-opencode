@@ -1,0 +1,251 @@
+{
+  "header": {
+    "title": "Asset Market Cap",
+    "tagline": "Compare all assets in one place",
+    "themeDark": "Switch to light mode",
+    "themeLight": "Switch to dark mode"
+  },
+  "filter": {
+    "allAssets": "All Assets",
+    "crypto": "Crypto",
+    "stocks": "Stocks",
+    "metals": "Metals",
+    "searchPlaceholder": "Search and Enter...",
+    "clearSearch": "Clear search",
+    "searching": "Searching API...",
+    "assetCount": "Currently showing {{count}} assets",
+    "showNext30": "Show Next 30",
+    "loadMore": "Load 30 more stocks",
+    "refresh": "Refresh data",
+    "rateLimited": "Rate limited - automatic retry in progress",
+    "configureColumns": "Configure columns"
+  },
+  "table": {
+    "rank": "#",
+    "name": "Name",
+    "type": "Type",
+    "price": "Price",
+    "change24h": "24h %",
+    "change7d": "7d %",
+    "change30d": "30d %",
+    "change60d": "60d %",
+    "change90d": "90d %",
+    "change180d": "180d %",
+    "changeYtd": "YTD %",
+    "marketCap": "Market Cap"
+  },
+  "assetTypes": {
+    "crypto": "Crypto",
+    "stock": "Stock",
+    "metal": "Metal",
+    "etf": "ETF"
+  },
+  "loading": {
+    "assets": "Loading assets...",
+    "searching": "Searching API for matching assets..."
+  },
+  "errors": {
+    "tryAgain": "Try Again",
+    "noResults": "No results found for \"{{query}}\"",
+    "noResultsHint": "Press Enter to search the API for more assets"
+  },
+  "footer": {
+    "clickRow": "Click on any row to view detailed information and price history",
+    "autoRefreshEnabled": "Auto-refresh: ON (every 5 min)",
+    "autoRefreshDisabled": "Auto-refresh: OFF",
+    "lastUpdate": "Last update: {{time}}",
+    "enableAutoRefresh": "Enable auto-refresh",
+    "disableAutoRefresh": "Disable auto-refresh",
+    "refreshingIn": "Refreshing in {{countdown}}",
+    "refreshingNow": "Refreshing data..."
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
+  "assetNames": {
+    "Gold": "Gold",
+    "Silver": "Silver",
+    "Platinum": "Platinum",
+    "Palladium": "Palladium",
+    "Copper": "Copper"
+  },
+  "detailPage": {
+    "back": "Back",
+    "refreshPrice": "Refresh price",
+    "rateLimitedRetry": "Rate limited - automatic retry in progress",
+    "priceHistory": "Price History",
+    "details": "Details",
+    "invalidUrl": "Invalid asset URL",
+    "goBack": "Go Back",
+    "dataSource": "Data source: Yahoo Finance & Twelve Data",
+    "retryingIn": "Rate limit exceeded (sorry, I use free plan). Wait for 1 minute and it should automatically retry. If it's been over 1 minute, click the refresh button on the top-right to manually refresh."
+  },
+  "assetDetails": {
+    "loadingDetails": "Loading details...",
+    "failedToFetch": "Failed to fetch data from API.",
+    "retryingIn": "Retrying in {{seconds}}...",
+    "marketStatistics": "Market Statistics",
+    "marketCap": "Market Cap",
+    "change24h": "24h Change",
+    "changeValue": "24h Change ($)",
+    "priceChange": "Price Change",
+    "volume": "Volume",
+    "avgVolume": "Avg Volume",
+    "sharesOut": "Shares Out",
+    "supply": "Supply",
+    "circulating": "Circulating",
+    "totalSupply": "Total Supply",
+    "maxSupply": "Max Supply",
+    "unlimited": "Unlimited",
+    "links": "Links",
+    "officialWebsite": "Official Website",
+    "todaysTrading": "Today's Trading",
+    "open": "Open",
+    "dayHigh": "Day High",
+    "dayLow": "Day Low",
+    "prevClose": "Prev Close",
+    "fiftyTwoWeekRange": "52 Week Range",
+    "fiftyTwoWeekHigh": "52W High",
+    "fiftyTwoWeekLow": "52W Low",
+    "fiftyDayAvg": "50D Avg",
+    "twoHundredDayAvg": "200D Avg",
+    "valuation": "Valuation",
+    "peRatioTTM": "P/E (TTM)",
+    "peRatioFWD": "P/E (FWD)",
+    "divYield": "Div Yield",
+    "beta": "Beta",
+    "companyInfo": "Company Info",
+    "sector": "Sector",
+    "industry": "Industry",
+    "employees": "Employees",
+    "headquarters": "HQ",
+    "companyWebsite": "Company Website",
+    "futures": "Futures",
+    "aboveGround": "Above Ground"
+  },
+  "marketStatus": {
+    "marketHours": "Market Hours",
+    "open": "OPEN",
+    "closed": "CLOSED",
+    "yourLocalTime": "Your Local Time",
+    "exchangeTime": "Exchange Time",
+    "marketOpen": "Market Open",
+    "marketClose": "Market Close",
+    "local": "local",
+    "exchange": "exchange",
+    "untilMarketOpens": "until market opens",
+    "untilMarketCloses": "until market closes"
+  },
+  "eventSelector": {
+    "chartEvents": "Chart Events",
+    "selectAll": "Select All",
+    "clearAll": "Clear All",
+    "governmentShutdown": "US Government Shutdowns",
+    "recession": "Recessions",
+    "fedDecisions": "Fed Decisions",
+    "fomc": "FOMC Meetings",
+    "rateHike": "Rate Hike",
+    "rateCut": "Rate Cut",
+    "rateHold": "Rate Hold"
+  },
+  "eventTitles": {
+    "fedRateHike": "Fed Rate Hike",
+    "fedRateCut": "Fed Rate Cut",
+    "fedRateHold": "Fed Rate Hold",
+    "governmentShutdown": "Government Shutdown",
+    "recession": "Recession"
+  },
+  "timezone": {
+    "label": "TZ:",
+    "local": "Local",
+    "exchange": "Exchange",
+    "exchangeTime": "Exchange Time",
+    "americas": "Americas",
+    "europe": "Europe",
+    "asiaPacific": "Asia/Pacific"
+  },
+  "priceChart": {
+    "loadingChart": "Loading chart data...",
+    "failedToFetch": "Failed to fetch data from API.",
+    "retryingIn": "Retrying in {{seconds}}...",
+    "noData": "No data available",
+    "high": "H",
+    "low": "L",
+    "open": "O",
+    "close": "C",
+    "addInventoryOverlay": "Add COMEX Inventory to chart",
+    "inventoryTotal": "COMEX Inventory",
+    "inventoryLabel": "COMEX Inventory (oz)",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetZoom": "Reset zoom",
+    "zoomHint": "Ctrl + scroll to zoom"
+  },
+  "chartType": {
+    "line": "Line",
+    "ohlc": "OHLC",
+    "candlestick": "Candlestick",
+    "lineTooltip": "Display price as a line chart",
+    "ohlcTooltip": "Display price as OHLC bars (Open, High, Low, Close)",
+    "candlestickTooltip": "Display price as Japanese candlesticks"
+  },
+  "indicators": {
+    "title": "Indicators",
+    "movingAverage1": "Moving Average 1",
+    "movingAverage2": "Moving Average 2",
+    "bollingerBands": "Bollinger Bands",
+    "type": "Type",
+    "period": "Period",
+    "stdDev": "Std Dev",
+    "reset": "Reset All"
+  },
+  "inventory": {
+    "title": "COMEX {{metal}} Inventory",
+    "total": "Total Inventory",
+    "loading": "Loading inventory data...",
+    "error": "Failed to load inventory data",
+    "noData": "No inventory data available",
+    "source": "Source",
+    "lastUpdated": "Last Updated"
+  },
+  "columnsConfig": {
+    "title": "Configure Columns",
+    "description": "Select which change percentage columns to display in the table.",
+    "done": "Done",
+    "columns": {
+      "change7d": "7 Day Change",
+      "change30d": "30 Day Change",
+      "change60d": "60 Day Change",
+      "change90d": "90 Day Change",
+      "changeYtd": "Year to Date (YTD)",
+      "change180d": "180 Day Change"
+    }
+  },
+  "premium": {
+    "title": "Regional Premiums",
+    "description": "Price differences between local exchanges and Western spot prices.",
+    "loading": "Loading...",
+    "unavailable": "Data unavailable",
+    "westernPrice": "Western",
+    "premiumDiscount": "Premium/Discount",
+    "spot": "Spot",
+    "futures": "Futures",
+    "sources": "Sources: SGE, MCX via metalcharts.org",
+    "sourcesShanghaiOnly": "Source: SGE via metalcharts.org",
+    "lastUpdated": "Updated",
+    "shanghai": {
+      "title": "Shanghai Premium",
+      "spot": "SGE Spot",
+      "futures": "SHFE Futures",
+      "exchangeRate": "USD/CNY"
+    },
+    "india": {
+      "title": "India Premium",
+      "spot": "MCX Spot",
+      "futures": "MCX Futures",
+      "exchangeRate": "USD/INR"
+    }
+  }
+}

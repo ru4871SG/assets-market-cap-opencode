@@ -1,0 +1,458 @@
+.chart-container {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 390px;
+}
+
+.chart-loading,
+.chart-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--text-secondary);
+}
+
+.chart-error {
+  color: #ff5252;
+}
+
+.retry-countdown {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* Event legend above chart */
+.chart-events-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: var(--bg-secondary, rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+}
+
+.chart-event-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.chart-event-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.chart-event-title {
+  white-space: nowrap;
+}
+
+/* Tooltip styles */
+.chart-tooltip {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 280px;
+}
+
+.tooltip-date {
+  color: var(--text-secondary);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.tooltip-price {
+  color: var(--text-primary);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+.tooltip-range {
+  color: var(--text-secondary);
+  font-size: 11px;
+  margin-top: 4px;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+/* Tooltip events section */
+.tooltip-events {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tooltip-event {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0 4px 8px;
+  border-left: 3px solid;
+  font-size: 11px;
+  color: var(--text-primary);
+}
+
+.tooltip-event-icon {
+  font-size: 12px;
+}
+
+.tooltip-event-title {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Tooltip inventory change */
+.tooltip-inventory {
+  font-size: 12px;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--border-color);
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+.tooltip-inventory.positive {
+  color: #00c853;
+}
+
+.tooltip-inventory.negative {
+  color: #ff5252;
+}
+
+/* Inventory legend above chart */
+.chart-inventory-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  background: rgba(156, 39, 176, 0.08);
+  border-radius: 6px;
+  border: 1px solid rgba(156, 39, 176, 0.2);
+}
+
+.inventory-legend-bar {
+  width: 16px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.inventory-legend-label {
+  font-size: 12px;
+  color: #9c27b0;
+  font-weight: 500;
+}
+
+/* Make sure recharts text is visible in dark mode */
+.recharts-cartesian-axis-tick-value {
+  fill: var(--text-secondary) !important;
+}
+
+/* OHLC Tooltip styles */
+.tooltip-ohlc {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tooltip-ohlc-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+.tooltip-ohlc-label {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.tooltip-ohlc-value {
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tooltip-ohlc-value.high {
+  color: #00c853;
+}
+
+.tooltip-ohlc-value.low {
+  color: #ff5252;
+}
+
+/* Indicator tooltip styles */
+.tooltip-indicators {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tooltip-indicator-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.tooltip-indicator-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.tooltip-indicator-label {
+  color: var(--text-secondary);
+}
+
+.tooltip-indicator-value {
+  color: var(--text-primary);
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+  margin-left: auto;
+}
+
+.tooltip-bb-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tooltip-bb-value {
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-left: 14px;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+/* Indicator legend above chart */
+.chart-indicators-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  background: var(--bg-secondary, rgba(0, 0, 0, 0.05));
+  border-radius: 6px;
+}
+
+.indicator-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.indicator-legend-line {
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  flex-shrink: 0;
+}
+
+.indicator-legend-band {
+  width: 14px;
+  height: 10px;
+  border-radius: 2px;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.indicator-legend-label {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 12px;
+    min-height: 300px;
+  }
+  
+  .chart-events-legend {
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .chart-indicators-legend {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+/* Chart wrapper for positioning zoom controls */
+.chart-wrapper {
+  position: relative;
+  user-select: none; /* Prevent text selection during drag */
+}
+
+/* Drag-to-pan cursor styles */
+.chart-wrapper.dragging {
+  cursor: grabbing !important;
+}
+
+.chart-wrapper.dragging * {
+  cursor: grabbing !important;
+}
+
+/* Horizontal scrollbar indicator */
+.chart-scroll-track {
+  position: absolute;
+  bottom: 4px;
+  left: 90px; /* Match Y-axis width */
+  right: 10px;
+  height: 6px;
+  background: var(--bg-secondary, rgba(0, 0, 0, 0.05));
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.chart-wrapper:hover .chart-scroll-track {
+  opacity: 1;
+}
+
+.chart-scroll-thumb {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: var(--text-secondary);
+  border-radius: 3px;
+  opacity: 0.4;
+  cursor: grab;
+  transition: opacity 0.15s ease;
+}
+
+.chart-scroll-thumb:hover {
+  opacity: 0.6;
+}
+
+.chart-scroll-thumb:active {
+  opacity: 0.8;
+  cursor: grabbing;
+}
+
+/* Zoom controls - positioned at bottom center above x-axis */
+.chart-zoom-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background: var(--card-bg);
+  padding: 4px 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--border-color);
+}
+
+.chart-zoom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.chart-zoom-btn:hover:not(:disabled) {
+  background: var(--bg-secondary, rgba(0, 0, 0, 0.05));
+  color: var(--text-primary);
+}
+
+.chart-zoom-btn:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.chart-zoom-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.chart-zoom-btn svg {
+  flex-shrink: 0;
+}
+
+/* Reset/zoom level button */
+.chart-zoom-reset {
+  width: auto;
+  padding: 0 8px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.chart-zoom-reset:hover:not(:disabled) {
+  color: var(--accent-color, #2196f3);
+}
+
+.zoom-level {
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+/* Zoom hint text */
+.chart-zoom-hint {
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-tertiary, var(--text-secondary));
+  opacity: 0.6;
+  margin-top: 4px;
+  padding: 0 8px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .chart-zoom-controls {
+    bottom: 24px;
+    padding: 3px 5px;
+    gap: 2px;
+  }
+  
+  .chart-zoom-btn {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .chart-zoom-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .chart-zoom-hint {
+    display: none;
+  }
+}

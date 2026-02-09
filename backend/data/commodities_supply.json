@@ -1,0 +1,35 @@
+{
+  "_comment": "Above-ground supply estimates for precious metals. Used to calculate market cap: price \u00d7 supply",
+  "_last_updated": "2026-01-28",
+  "_update_frequency": "Refresh every 30 days from CompaniesMarketCap and current price APIs.",
+  "XAU": {
+    "supply": 6953511557,
+    "unit": "troy_ounces",
+    "source": "CompaniesMarketCap (market cap) + Yahoo Finance (price)",
+    "notes": "Derived supply from Estimated Market Cap: $37.663 T and price 5416.4."
+  },
+  "XAG": {
+    "supply": 56357062925,
+    "unit": "troy_ounces",
+    "source": "CompaniesMarketCap (market cap) + Yahoo Finance (price)",
+    "notes": "Derived supply from Estimated Market Cap: $6.547 T and price 116.17."
+  },
+  "XPT": {
+    "supply": 249814126,
+    "unit": "troy_ounces",
+    "source": "CompaniesMarketCap (market cap) + Yahoo Finance (price)",
+    "notes": "Derived supply from Estimated Market Cap: $672.00 B and price 2690.0."
+  },
+  "XPD": {
+    "supply": 174996416,
+    "unit": "troy_ounces",
+    "source": "CompaniesMarketCap (market cap) + Yahoo Finance (price)",
+    "notes": "Derived supply from Estimated Market Cap: $366.18 B and price 2092.5."
+  },
+  "HG": {
+    "supply": 28000000000,
+    "unit": "lbs",
+    "source": "International Copper Study Group",
+    "notes": "Total above ground is ~700 million metric tons, but only small fraction is investable. Using ~28 billion lbs as investable market estimate"
+  }
+}

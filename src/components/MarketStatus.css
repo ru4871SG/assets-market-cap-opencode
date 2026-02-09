@@ -1,0 +1,124 @@
+.market-status {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.market-status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.market-status-header h3 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.market-status-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.market-status-badge.open {
+  background: rgba(0, 200, 83, 0.15);
+  color: #00c853;
+}
+
+.market-status-badge.closed {
+  background: rgba(255, 82, 82, 0.15);
+  color: #ff5252;
+}
+
+.market-status-exchange {
+  margin-bottom: 12px;
+}
+
+.exchange-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.market-status-times {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.time-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+.time-label {
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.time-value {
+  color: var(--text-primary);
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+  text-align: right;
+}
+
+.time-secondary {
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+
+.market-status-countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+  gap: 4px;
+}
+
+.countdown-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent-color);
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+}
+
+.countdown-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 480px) {
+  .market-status {
+    padding: 12px;
+  }
+  
+  .time-row {
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .time-value {
+    text-align: left;
+  }
+  
+  .countdown-value {
+    font-size: 20px;
+  }
+}

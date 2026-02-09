@@ -1,0 +1,40 @@
+.chart-type-selector {
+  display: flex;
+  gap: 2px;
+  background: var(--bg-secondary, rgba(0, 0, 0, 0.05));
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.chart-type-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.chart-type-btn:hover:not(:disabled) {
+  background: var(--border-color);
+  color: var(--text-primary);
+}
+
+.chart-type-btn.active {
+  background: var(--card-bg);
+  color: var(--text-primary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chart-type-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chart-type-btn svg {
+  flex-shrink: 0;
+}

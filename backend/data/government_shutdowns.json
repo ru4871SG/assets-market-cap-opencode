@@ -1,0 +1,82 @@
+{
+  "_metadata": {
+    "description": "U.S. Government Shutdowns that resulted in employee furloughs",
+    "source": "https://en.wikipedia.org/wiki/Government_shutdowns_in_the_United_States",
+    "last_updated": "2026-02-06",
+    "notes": "Only includes shutdowns that caused federal employee furloughs. Update this file when new shutdowns occur."
+  },
+  "shutdowns": [
+    {
+      "id": "shutdown_2025",
+      "start_date": "2025-10-01",
+      "end_date": "2025-11-12",
+      "title": "2025 Government Shutdown",
+      "description": "43-day shutdown during Trump's second presidency. Longest in U.S. history.",
+      "days": 43,
+      "president": "Trump (2nd term)"
+    },
+    {
+      "id": "shutdown_2018_2019",
+      "start_date": "2018-12-22",
+      "end_date": "2019-01-25",
+      "title": "2018-2019 Government Shutdown",
+      "description": "35-day partial shutdown over U.S.-Mexico border wall funding.",
+      "days": 35,
+      "president": "Trump (1st term)"
+    },
+    {
+      "id": "shutdown_jan_2018",
+      "start_date": "2018-01-20",
+      "end_date": "2018-01-22",
+      "title": "January 2018 Shutdown",
+      "description": "3-day shutdown over DACA and immigration policy.",
+      "days": 3,
+      "president": "Trump (1st term)"
+    },
+    {
+      "id": "shutdown_2013",
+      "start_date": "2013-10-01",
+      "end_date": "2013-10-17",
+      "title": "2013 Government Shutdown",
+      "description": "16-day shutdown over Affordable Care Act implementation.",
+      "days": 16,
+      "president": "Obama"
+    },
+    {
+      "id": "shutdown_1995_nov",
+      "start_date": "1995-11-14",
+      "end_date": "1995-11-19",
+      "title": "November 1995 Shutdown",
+      "description": "5-day shutdown over budget disputes with Republican Congress.",
+      "days": 5,
+      "president": "Clinton"
+    },
+    {
+      "id": "shutdown_1995_1996",
+      "start_date": "1995-12-16",
+      "end_date": "1996-01-06",
+      "title": "1995-1996 Government Shutdown",
+      "description": "21-day shutdown over Medicare and budget cuts.",
+      "days": 21,
+      "president": "Clinton"
+    },
+    {
+      "id": "shutdown_1990",
+      "start_date": "1990-10-06",
+      "end_date": "1990-10-09",
+      "title": "1990 Government Shutdown",
+      "description": "3-day shutdown over budget deficit reduction.",
+      "days": 3,
+      "president": "Bush Sr."
+    },
+    {
+      "id": "shutdown_2026_united_states_federal_government_shutdown",
+      "start_date": "2026-01-31",
+      "end_date": "2026-02-03",
+      "title": "2026 United States federal government shutdown",
+      "description": "4-day shutdown under Republican (53 \u2013 45 \u2013 2).",
+      "days": 4,
+      "president": "Republican (53 \u2013 45 \u2013 2)"
+    }
+  ]
+}

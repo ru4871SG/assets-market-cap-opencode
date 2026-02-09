@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asset Market Cap - Compare Stocks, Crypto & Metals</title>
+    <meta name="description" content="Compare market capitalizations across cryptocurrencies, stocks, and precious metals in one place. Sort by market cap, name, or price." />
+    <script>
+      // Initialize theme before React loads to prevent flash
+      (function() {
+        const saved = localStorage.getItem('asset-market-cap-theme');
+        if (saved === 'light' || saved === 'dark') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
