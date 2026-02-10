@@ -248,3 +248,9 @@ Make sure to also edit `AUTO_REFRESH_INTERVAL` in `src/hooks/useAutoRefreshCount
 
 **With default config:** 2 credits per page visit (free tier friendly)
 **With `STATISTICS_ASSET_PAGE_TWELVEDATA=True`:** 3 credits per page visit (1 wasted on free tier)
+
+## Custom OpenCode Plugin
+
+If you are wondering why I have `chat-history-logger.ts` inside `.opencode/plugins`, it is because I created that plugin to instantly log chat history between me and the AI assistant in opencode. You can find the full plugin here: [https://github.com/ru4871SG/chat-history-logger-opencode-claudecode](https://github.com/ru4871SG/chat-history-logger-opencode-claudecode). In that repository, you can also find the Claude Code version if you are more comfortable with Claude Code.
+
+Don't forget to add `chat_history` to your `.gitignore` so you won't accidentally upload your chat history to GitHub or Gitlab.
