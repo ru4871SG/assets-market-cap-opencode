@@ -31,8 +31,12 @@ backend/__pycache__/
 backend/.env
 backend/logs/
 .env
+
+# .opencode folder
+.opencode/node_modules
+.opencode/package.json
+.opencode/package-lock.json
+.opencode/bun.lock
+.opencode/.gitignore
 .opencode/.env
 .opencode/opencode.json
-
-# Plugin
-custom_chat_history_opencode_plugin.md
