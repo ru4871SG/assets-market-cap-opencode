@@ -195,7 +195,6 @@ export function AssetDetailPage() {
     // If we don't have history data yet, do a full refresh (initial load failed)
     // Otherwise use lightweight auto-refresh
     const needsFullRefresh = !historyData || historyData.length === 0;
-    console.log(`[Rate Limit Retry] needsFullRefresh=${needsFullRefresh}, historyDataLength=${historyData?.length || 0}`);
     if (needsFullRefresh) {
       // Full refresh: trigger both history and details effects
       setIsRefreshing(true);
@@ -372,17 +371,8 @@ export function AssetDetailPage() {
     if (autoRefreshKey === 0) return;
     if (!type || !id) return;
     
-    console.log('[Auto-refresh] Using lightweight refresh endpoint, interval:', candleInterval);
-    
     fetchAssetRefresh(assetId, assetType, candleInterval, 5)  // Get 5 candles to ensure overlap
       .then((response: RefreshResponse) => {
-        console.log('[Auto-refresh] Response:', {
-          quote: response.quote?.price,
-          candlesCount: response.candles?.length,
-          interval: response.interval,
-          candles: response.candles?.map(c => ({ date: c.date, price: c.price }))
-        });
-        
         // Update current price and change from quote
         if (response.quote) {
           // Update details with new price data (without full refetch)
@@ -429,8 +419,6 @@ export function AssetDetailPage() {
             
             const addedCount = merged.length - prev.length;
             const updatedCount = newCandles.length - Math.max(0, addedCount);
-            
-            console.log(`[Auto-refresh] Merged: ${addedCount} new candles added, ${updatedCount} existing updated. Total: ${merged.length}`);
             
             return merged;
           });
