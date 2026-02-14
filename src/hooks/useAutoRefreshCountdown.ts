@@ -73,7 +73,6 @@ export function useAutoRefreshCountdown({
           // Time to refresh
           if (!isLoading) {
             setIsRefreshing(true);
-            console.log('[Auto-refresh] Countdown complete, refreshing...');
             onRefreshRef.current();
             // Reset will happen when isLoading changes or via resetCountdown
           }

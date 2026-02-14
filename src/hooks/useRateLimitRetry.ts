@@ -46,7 +46,6 @@ export function useRateLimitRetry(
   useEffect(() => {
     // Only start countdown if rate limited and not already counting
     if (isRateLimited && secondsRemaining > 0 && !isCountingDown.current) {
-      console.log(`[Rate Limit] Countdown started: ${secondsRemaining}s`);
       isCountingDown.current = true;
       
       intervalRef.current = window.setInterval(() => {
@@ -55,7 +54,6 @@ export function useRateLimitRetry(
           
           if (next <= 0) {
             // Countdown finished
-            console.log('[Rate Limit] Countdown finished, triggering retry');
             isCountingDown.current = false;
             setIsRateLimited(false);
             
@@ -66,7 +64,6 @@ export function useRateLimitRetry(
             
             // Execute retry callback (use setTimeout to avoid state update during render)
             setTimeout(() => {
-              console.log('[Rate Limit] Executing retry callback');
               onRetryRef.current();
             }, 0);
             
@@ -106,15 +103,12 @@ export function useRateLimitRetry(
     // Add 1 second buffer to ensure server has cleared the rate limit
     const totalDelay = Math.ceil(delaySeconds) + 1;
     
-    console.log(`[Rate Limit] Starting countdown: ${totalDelay}s (backend suggested: ${waitTimeSeconds}s)`);
-    
     // Set state - this will trigger the useEffect to start the interval
     setSecondsRemaining(totalDelay);
     setIsRateLimited(true);
   }, [defaultRetryDelaySeconds]);
 
   const cancelRetry = useCallback(() => {
-    console.log('[Rate Limit] Retry cancelled');
     isCountingDown.current = false;
     setIsRateLimited(false);
     setSecondsRemaining(0);
